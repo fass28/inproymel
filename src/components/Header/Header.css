@@ -1,4 +1,19 @@
 .header{
-    height: 72.5px;
     background-color: blue;
+}
+
+nav{
+    background-color: rgba(31,68,86,255); 
+}
+
+.nav-items{
+    margin: 0 auto;
+}
+
+.items{
+ margin: 0 18px;
+}
+
+.whatsapp{
+    background-color: green;
 }
