@@ -1,7 +1,7 @@
 .bg-img{
     background-image: url("../../assets/imagenes/electricist2.jpeg");
     height: 900px;
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
     vertical-align: middle;
 }
