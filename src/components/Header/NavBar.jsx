@@ -13,10 +13,10 @@ export const NavBar = () => {
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto nav-items">
                   <Nav.Link className="items" href="#features">Inicio</Nav.Link>
-                  <Nav.Link className="items" href="#pricing">Sobre Nosotros</Nav.Link>
-                  <Nav.Link className="items" href="#pricing">Servicios</Nav.Link>
-                  <Nav.Link className="items" href="#pricing">Clientes</Nav.Link>
-                  <Nav.Link className="items" href="#pricing">Contactanos</Nav.Link>
+                  <Nav.Link className="items" href="#aboutUs">Sobre Nosotros</Nav.Link>
+                  <Nav.Link className="items" href="#services">Servicios</Nav.Link>
+                  <Nav.Link className="items" href="#clients">Clientes</Nav.Link>
+                  <Nav.Link className="items" href="#contact">Contactanos</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
