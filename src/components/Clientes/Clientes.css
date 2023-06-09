@@ -1,0 +1,10 @@
+.clientes{
+    height: 200px;
+    background-color: rgb(224, 173, 173);
+    text-align: center;
+}
+
+.clientes-img{
+    height: 80px;
+    width: 120px;
+}
