@@ -7,10 +7,10 @@ import "./AboutUs.css";
 export const AboutUs = () => {
   return (
     <section className="about-Us">
+            <h1>¿Quienes somos?</h1>
       <Container>
         <Row>
           <Col>
-            <h2>¿Quienes somos?</h2>
             <p>
               Somos una empresa creada para atender las grandes demandas y
               necesidades del sector electrico, mecanico, automatizacion y
