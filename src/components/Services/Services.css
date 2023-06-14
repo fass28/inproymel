@@ -1,10 +1,26 @@
 .services{
-    height: 800px;
-    background-color: rgb(78, 182, 78);
+    height: 500px;
+    background-color: rgb(214, 225, 214);
     text-align: center;
 }
 
-img{
-    height: 550px;
-    width: 1200px;
+
+
+.col-img{
+    background-color: rgba(31,68,86,255);
+    height: 100px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.icon-img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(152deg) brightness(106%) contrast(102%);
+    margin-right: 40px;
+    height: 45px;
+    display: inline-f;
+    justify-content: flex-start;
+}
+

@@ -3,9 +3,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+
 import delta from "../../assets/imagenes/Clients-img/delta.jpg";
 import durabilis from "../../assets/imagenes/Clients-img/durabilis.jpg";
 import ecolab from "../../assets/imagenes/Clients-img/ecolab.jpg";
