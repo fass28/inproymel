@@ -1,5 +1,5 @@
 .clientes{
-    height: 200px;
+    height: 260px;
     background-color: rgb(224, 173, 173);
     text-align: center;
 }
@@ -7,4 +7,5 @@
 .clientes-img{
     height: 80px;
     width: 120px;
+    margin-bottom: 25px;
 }

@@ -13,7 +13,7 @@ import drywall from "../../assets/imagenes/services-img/drywall.jpg";
 
 export const Services = () => {
   return (
-    <section className="services">
+    <section className="services" id="services">
       <h1>SERVICIOS</h1>
       <Container>
         <Carousel>

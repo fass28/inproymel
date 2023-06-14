@@ -1,0 +1,25 @@
+.contactUs{
+    padding: 40px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.icon{
+    height: 30px;
+    margin: 0 25px 0 0;
+    background-color: rgba(31,68,86,255); 
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    
+}
+
+h6{
+  opacity: 0.7;  
+  text-align: left;
+}

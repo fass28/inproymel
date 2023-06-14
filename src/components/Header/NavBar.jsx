@@ -12,11 +12,11 @@ export const NavBar = () => {
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto nav-items">
-                  <Nav.Link className="items" href="#features">Inicio</Nav.Link>
+                  <Nav.Link className="items" href="#home">Inicio</Nav.Link>
                   <Nav.Link className="items" href="#aboutUs">Sobre Nosotros</Nav.Link>
                   <Nav.Link className="items" href="#services">Servicios</Nav.Link>
                   <Nav.Link className="items" href="#clients">Clientes</Nav.Link>
-                  <Nav.Link className="items" href="#contact">Contactanos</Nav.Link>
+                  <Nav.Link className="items" href="#contactUs">Contactanos</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
