@@ -11,7 +11,7 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 
-import "./contactUs.css";
+import "./ContactUs.css";
 
 export const ContactUs = () => {
   return (
