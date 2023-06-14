@@ -1,6 +1,11 @@
+import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+
+import { ServiceModal } from "./Modal/Modal";
 
 import automation from "../../assets/imagenes/services-img/automation.jpg";
 import automation_svg from "../../assets/imagenes/services-img/svg-icon/automation.svg";
@@ -18,12 +23,42 @@ import drywall_svg from "../../assets/imagenes/services-img/svg-icon/drywall.svg
 import "./Services.css";
 
 export const Services = () => {
+  const [modalShowAuto, setModalShowAuto] = useState(false);
+
+  function modalAuto() {
+    setModalShowAuto(true);
+  }
+
+  function modalElec() {
+    console.log("elec");
+  }
+
+  function modalMech() {
+    console.log("mech");
+  }
+
+  function modalReefer() {
+    console.log("reefer");
+  }
+
+  function modalAc() {
+    console.log("ac");
+  }
+
+  function modalDrywall() {
+    console.log("drywall");
+  }
+
   return (
     <section className="services" id="services">
-      <h1>SERVICIOS</h1>
+      <h1>NUESTROS SERVICIOS</h1>
+      <ServiceModal
+        showModal={modalShowAuto}
+        onHide={() => setModalShowAuto(false)}
+      ></ServiceModal>
       <Container>
         <Row>
-          <Col className="col-img">
+          <Col className="col-img" onClick={modalAuto}>
             <img
               src={automation_svg}
               alt="AutomationSVG ICON"
@@ -31,7 +66,7 @@ export const Services = () => {
             />
             <h6>Automatización Industrial</h6>
           </Col>
-          <Col className="col-img">
+          <Col className="col-img" onClick={modalElec}>
             <img
               src={electrical_svg}
               alt="electricalSVG ICON"
@@ -39,7 +74,7 @@ export const Services = () => {
             />
             <h6> Electricidad Industrial y Domestica</h6>
           </Col>
-          <Col className="col-img">
+          <Col className="col-img" onClick={modalMech}>
             <img
               src={mechanical_svg}
               alt="mechanicalSVG ICON"
@@ -49,15 +84,15 @@ export const Services = () => {
           </Col>
         </Row>
         <Row>
-          <Col className="col-img">
+          <Col className="col-img" onClick={modalReefer}>
             <img src={reefer_svg} alt="reeferSVG ICON" className="icon-img" />
             <h6> Asistencia de contenedores refrigerados</h6>
           </Col>
-          <Col className="col-img">
+          <Col className="col-img" onClick={modalAc}>
             <img src={ac_svg} alt="acSVG ICON" className="icon-img" />
             <h6>Aire Acondicionado</h6>
           </Col>
-          <Col className="col-img">
+          <Col className="col-img" onClick={modalDrywall}>
             <img src={drywall_svg} alt="drywallSVG ICON" className="icon-img" />
             <h6>Carpinteria y Drywall</h6>
           </Col>
