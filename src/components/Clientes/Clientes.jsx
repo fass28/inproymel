@@ -1,3 +1,8 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper";
+
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -19,49 +24,56 @@ import "./Clientes.css";
 export const Clientes = () => {
   return (
     <section className="clientes" id="clients">
-      <h1>Clientes</h1>
-      <Container>
-        <Row>
-          <Col>
-            <img className="clientes-img" src={bakels} alt="bakels JPG" />
-          </Col>
-          <Col>
-            <img className="clientes-img" src={chocolate} alt="chocolate JPG" />
-          </Col>
-          <Col>
-            <img className="clientes-img" src={courty_marriot} alt="courty_marriot JPG"/>
-          </Col>
-          <Col>
-            <img className="clientes-img" src={delta} alt="delta JPG" />
-          </Col>
-          <Col>
-            <img className="clientes-img" src={durabilis} alt="durabilis JPG" />
-          </Col>
-          <Col>
-            <img className="clientes-img" src={ecolab} alt="ecolab JPG" />
-          </Col>
-          </Row>
-          <Row>
-          <Col>
-            <img className="clientes-img" src={etna} alt="Etna JPG" />
-          </Col>
-          <Col>
-            <img className="clientes-img" src={farvet} alt="farvet JPG" />
-          </Col>
-          <Col>
-            <img className="clientes-img" src={helena} alt="helena JPG" />
-          </Col>
-          <Col>
-            <img className="clientes-img" src={life} alt="life JPG" />
-          </Col>
-          <Col>
-            <img className="clientes-img" src={marriot} alt="marriot JPG" />
-          </Col>
-          <Col>
-            <img className="clientes-img" src={teknomeal} alt="teknomeal JPG" />
-          </Col>
-        </Row>
-      </Container>
+      <h1>Nuestros Clientes</h1>
+      <Swiper
+        slidesPerView={5}
+        spaceBetween={80}
+        loop={true}
+        centeredSlides={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img className="clientes-img" src={bakels} alt="bakels JPG" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="clientes-img" src={chocolate} alt="chocolate JPG" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="clientes-img" src={courty_marriot} alt="courty_marriot JPG"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="clientes-img" src={delta} alt="delta JPG" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="clientes-img" src={durabilis} alt="durabilis JPG" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="clientes-img" src={ecolab} alt="ecolab JPG" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="clientes-img" src={etna} alt="Etna JPG" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="clientes-img" src={farvet} alt="farvet JPG" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="clientes-img" src={helena} alt="helena JPG" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="clientes-img" src={life} alt="life JPG" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="clientes-img" src={marriot} alt="marriot JPG" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="clientes-img" src={teknomeal} alt="teknomeal JPG" />
+        </SwiperSlide>
+      </Swiper>
     </section>
   );
 };

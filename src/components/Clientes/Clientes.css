@@ -1,11 +1,22 @@
-.clientes{
-    height: 260px;
-    background-color: rgb(224, 173, 173);
-    text-align: center;
+.clientes {
+  height: 250px;
+  background-color: white;
+  text-align: center;
 }
 
-.clientes-img{
-    height: 80px;
-    width: 120px;
-    margin-bottom: 25px;
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+height: 50px;
+margin-bottom: 60px;
 }

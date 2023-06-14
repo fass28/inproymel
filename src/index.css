@@ -5,3 +5,9 @@ body{
 .btn-primary{
     --bs-btn-bg: rgba(31,68,86,255);   
 }
+
+h1{
+    color:rgba(31,68,86,255);
+    padding: 25px 0;
+    margin-bottom: 20px;
+}
