@@ -4,7 +4,7 @@ import Modal from "react-bootstrap/Modal";
 import mech from "../../../assets/imagenes/services-img/mechanical.jpg";
 
 
-import "./modal.css"
+import "./Modal.css"
 
 export const ServiceModalMech = ({showModal, onHide}) => {
     return (

@@ -4,7 +4,8 @@ import Modal from "react-bootstrap/Modal";
 import drywall from "../../../assets/imagenes/services-img/drywall.jpg";
 
 
-import "./modal.css"
+import "./Modal.css"
+
 export const ServiceModalDry = ({showModal, onHide}) => {
     return (
         <Modal

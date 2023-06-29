@@ -4,7 +4,7 @@ import Modal from "react-bootstrap/Modal";
 import automation from "../../../assets/imagenes/services-img/automation.jpg";
 
 
-import "./modal.css"
+import "./Modal.css"
 
 
 

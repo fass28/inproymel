@@ -3,7 +3,7 @@ import Modal from "react-bootstrap/Modal";
 
 import electrical from "../../../assets/imagenes/services-img/electrical.jpg";
 
-import "./modal.css";
+import "./Modal.css";
 
 export const ServiceModalElec = ({showModal, onHide}) => {
   return (

@@ -4,7 +4,7 @@ import Modal from "react-bootstrap/Modal";
 import ac from "../../../assets/imagenes/services-img/ac.jpg";
 
 
-import "./modal.css"
+import "./Modal.css"
 
 
 export const ServiceModalAc = ({showModal, onHide}) => {

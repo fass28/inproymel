@@ -4,7 +4,7 @@ import Modal from "react-bootstrap/Modal";
 import reefer from "../../../assets/imagenes/services-img/reefer.jpg";
 
 
-import "./modal.css"
+import "./Modal.css"
 
 export const ServiceModalReefer = ({showModal, onHide}) => {
     return (
