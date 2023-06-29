@@ -1,7 +1,11 @@
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
-export const ServiceModal = ({showModal, onHide}) => {
+import electrical from "../../../assets/imagenes/services-img/electrical.jpg";
+
+import "./modal.css";
+
+export const ServiceModalElec = ({showModal, onHide}) => {
   return (
     <Modal
       show={showModal}
@@ -9,21 +13,26 @@ export const ServiceModal = ({showModal, onHide}) => {
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header closeButton>
+      <Modal.Header closeButton className="modal-Header">
         <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
+          Electricidad  Industrial & Domestica
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
+        <h4>Servicios</h4>
         <p>
           Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
           dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
           consectetur ac, vestibulum at eros.
         </p>
+        <img
+          src={electrical}
+          alt="electrical ICON"
+          className="services-img"
+        />
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={onHide}>Close</Button>
+        <Button onClick={onHide}>Cerrar</Button>
       </Modal.Footer>
     </Modal>
   );

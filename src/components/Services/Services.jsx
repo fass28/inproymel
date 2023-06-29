@@ -2,60 +2,82 @@ import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
 
-import { ServiceModal } from "./Modal/Modal";
+import { ServiceModalAuto } from "./Modal/ServiceModalAuto";
+import { ServiceModalElec } from "./Modal/ServiceModalElec";
+import { ServiceModalMech } from "./Modal/ServiceModalMech";
+import { ServiceModalReefer } from "./Modal/ServiceModalReefer";
 
-import automation from "../../assets/imagenes/services-img/automation.jpg";
 import automation_svg from "../../assets/imagenes/services-img/svg-icon/automation.svg";
-import electrical from "../../assets/imagenes/services-img/electrical.jpg";
 import electrical_svg from "../../assets/imagenes/services-img/svg-icon/electrical.svg";
-import mechanical from "../../assets/imagenes/services-img/mechanical.jpg";
 import mechanical_svg from "../../assets/imagenes/services-img/svg-icon/mechanical.svg";
-import reefer from "../../assets/imagenes/services-img/reefer.jpg";
 import reefer_svg from "../../assets/imagenes/services-img/svg-icon/reefer.svg";
-import ac from "../../assets/imagenes/services-img/ac.jpg";
 import ac_svg from "../../assets/imagenes/services-img/svg-icon/ac.svg";
-import drywall from "../../assets/imagenes/services-img/drywall.jpg";
 import drywall_svg from "../../assets/imagenes/services-img/svg-icon/drywall.svg";
-
 import "./Services.css";
+import { ServiceModalAc } from "./Modal/ServiceModalAc";
+import { ServiceModalDry } from "./Modal/ServiceModalDry";
 
 export const Services = () => {
   const [modalShowAuto, setModalShowAuto] = useState(false);
+  const [modalShowElec, setModalShowElec] = useState(false);
+  const [modalShowMec, setModalShowMec] = useState(false);
+  const [modalShowReefer, setModalShowReefer] = useState(false);
+  const [modalShowAc, setModalShowAc] = useState(false);
+  const [modalShowDry, setModalShowDry] = useState(false);
 
   function modalAuto() {
     setModalShowAuto(true);
   }
 
   function modalElec() {
-    console.log("elec");
+    setModalShowElec(true);
   }
 
   function modalMech() {
-    console.log("mech");
+    setModalShowMec(true);
   }
 
   function modalReefer() {
-    console.log("reefer");
+    setModalShowReefer(true);
   }
 
   function modalAc() {
-    console.log("ac");
+    setModalShowAc(true);
   }
 
   function modalDrywall() {
-    console.log("drywall");
+    setModalShowDry(true);
   }
 
   return (
     <section className="services" id="services">
       <h1>NUESTROS SERVICIOS</h1>
-      <ServiceModal
+      <ServiceModalAuto
         showModal={modalShowAuto}
         onHide={() => setModalShowAuto(false)}
-      ></ServiceModal>
+      ></ServiceModalAuto>
+      <ServiceModalElec
+        showModal={modalShowElec}
+        onHide={() => setModalShowElec(false)}
+      ></ServiceModalElec>
+      <ServiceModalMech
+        showModal={modalShowMec}
+        onHide={() => setModalShowMec(false)}
+      ></ServiceModalMech>
+      <ServiceModalReefer
+        showModal={modalShowReefer}
+        onHide={() => setModalShowReefer(false)}
+      ></ServiceModalReefer>
+      <ServiceModalAc
+        onHide={() => setModalShowAc(false)}
+        showModal={modalShowAc}
+      ></ServiceModalAc>
+      <ServiceModalDry
+        onHide={() => setModalShowDry(false)}
+        showModal={modalShowDry}
+      ></ServiceModalDry>
+
       <Container>
         <Row>
           <Col className="col-img" onClick={modalAuto}>

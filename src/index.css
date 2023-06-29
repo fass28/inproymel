@@ -1,7 +1,3 @@
-body{
-    background-color: green;
-}
-
 .btn-primary{
     --bs-btn-bg: rgba(31,68,86,255);   
 }
