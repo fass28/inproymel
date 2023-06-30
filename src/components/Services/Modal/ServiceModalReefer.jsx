@@ -23,12 +23,15 @@ export const ServiceModalReefer = ({showModal, onHide}) => {
             <h4>Servicios</h4>
          <strong>
           <ul>
-            <li>Reparacion y mantenimiento de equipos de refigeracion</li>
-            <li>Servicio de instalacion y mantenimiento  de cámaras de conservación y congelación</li>
-            <li>Supervisión de funcionamiento de containers reefer</li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Reparación y mantenimiento de equipos de refigeración.</li>
+            <li>Servicio de instalación y mantenimiento  de cámaras de conservación y congelación.</li>
+            <li>Supervisión de funcionamiento de containers reefer.</li>
+            <li>Mantenimiento Preventivo, correctivo y predictivo.</li>
+            <li>Instalación y puesta en marcha.</li>
+            <li>Pre-trip Inspection(PTI) para reefers</li>
+            <li>Supervisión de funcionamiento de contenedores refigerados.</li>
+            <li>Inspección y reparación estructural de contendores.</li>
+            <li>Inspección y reparacion de compresor, evaporadoir, condensador,etc.</li>
             <li></li>
           </ul>
          </strong>

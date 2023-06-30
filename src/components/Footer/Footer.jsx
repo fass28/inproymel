@@ -14,6 +14,7 @@ export const Footer = () => {
   return (
     <>
       <section className="footer" id="footer">
+        <div className="redes-shadow"></div>
         <div className="footer-redes">
           <strong>Siguenos en:</strong>
             <a href="" id='icon'><FontAwesomeIcon icon={['fab', 'facebook']} className="follow-icon" /> </a>
@@ -31,10 +32,14 @@ export const Footer = () => {
             </Col>
             <Col>
               <h6 className="footer-title"><strong>HORARIO DE OFICINA</strong></h6>
-              <p>Estamos para apoyarte</p>
-              <p>De lunes a domingo</p>
-              <p>de 8 am hasta 7pm</p>
-              <p>Trabajamos tambien feriados!</p>
+              <p>Estamos para apoyarte
+             <br/>
+              De lunes a domingo
+             <br/>
+              de 8 am hasta 7pm
+             <br/> 
+              Trabajamos tambien feriados!
+              </p>
             </Col>
             <Col>
               <h6 className="footer-title"><strong>NUESTRO CONTACTO</strong></h6>
@@ -53,7 +58,7 @@ export const Footer = () => {
               </Row>
               <Row className="footer-col">
                 <Col xs={2}>
-                  <FontAwesomeIcon icon={faEnvelope} className="icon" />
+                  <FontAwesomeIcon icon={faEnvelope} className="footer-icon" />
                 </Col>
                 <Col xs={10}>
                   <span className="text-icon">ventas@inproymel.com</span>
@@ -61,7 +66,7 @@ export const Footer = () => {
               </Row>
               <Row className="footer-col">
                 <Col xs={2}>
-                  <FontAwesomeIcon icon={faPhone} className="icon" />
+                  <FontAwesomeIcon icon={faPhone} className="footer-icon" />
                 </Col>
                 <Col xs={10}>
                   <span className="text-icon">+51 934862130</span>
@@ -74,8 +79,9 @@ export const Footer = () => {
       <section className="sub-footer">
         <p>
           Copyrigth <span>© Inproymel</span> Website 2023
-        </p>
-        <p> *Todos los derechos reservados*</p>
+          <br/>
+       *Todos los derechos reservados*
+       </p>
       </section>
     </>
   );

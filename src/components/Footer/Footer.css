@@ -19,6 +19,14 @@
     font-size: large;
 }
 
+.redes-shadow{
+    background-color: rgba(31,68,86,255); 
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    left: 75px;
+    top: -40px;
+}
 
 .footer-title{
     text-align: center;
@@ -41,7 +49,7 @@ p{
 }
 
 .footer-icon{
-    height: 25px;
+    height: 20px;
     background-color: rgba(31,68,86,255); 
     color: white;
     padding: 10px;
@@ -56,6 +64,7 @@ span{
 .text-icon{
     color: white;
     text-align: end;
+    font-size: 12px;
 }
 
 
