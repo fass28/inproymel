@@ -22,11 +22,15 @@ export const ServiceModalAc = ({showModal, onHide}) => {
           </Modal.Header>
           <Modal.Body>
             <h4>Servicios</h4>
-            <p>
-              Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-              dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-              consectetur ac, vestibulum at eros.
-            </p>
+           <strong>
+            <ul>
+              <li>Mantenimiento de equiposde AC split pared,inverter, portátil y ventana</li>
+              <li>Servicio de Instalacion de AC</li>
+              <li>Diseño industrial y residencial de equipos AC</li>
+              <li>Revisión y medicion de Gas</li>
+              <li>Visita técnica a empresas y residencias</li>
+            </ul>
+           </strong>
             <img
                   src={ac}
                   alt="ac ICON"

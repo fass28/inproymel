@@ -24,11 +24,16 @@ export const ServiceModalAuto = ({showModal, onHide}) => {
       </Modal.Header>
       <Modal.Body>
         <h4>Servicios</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
+        <strong>
+        <ul>
+          <li>Servicio de automatización industrial en funcionamiento continuo.</li>
+          <li>Programacion y comisionamiento de PLC's, SIEMENS, ONROM, ALLEN BRADLEY, ABB.</li>
+          <li>Servicio de programación SCADA</li>
+          <li>Servicio de Upgrade de PLC, SCADA y HMI</li>
+          <li>Configuración de Instrumentos industriales</li>
+          <li>Configuración de redes de telecomunicacion</li>
+        </ul>
+        </strong>
         <img
               src={automation}
               alt="Automation ICON"

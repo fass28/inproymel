@@ -1,6 +1,10 @@
 .about-Us{
-    height: 400px;
-    background-color: yellow;
+    height: 460px;
     align-items: center;
     text-align: center;
+    color: black;
+}
+
+.valores{
+    text-align: left;
 }

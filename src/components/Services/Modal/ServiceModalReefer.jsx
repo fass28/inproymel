@@ -21,11 +21,17 @@ export const ServiceModalReefer = ({showModal, onHide}) => {
           </Modal.Header>
           <Modal.Body>
             <h4>Servicios</h4>
-            <p>
-              Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-              dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-              consectetur ac, vestibulum at eros.
-            </p>
+         <strong>
+          <ul>
+            <li>Reparacion y mantenimiento de equipos de refigeracion</li>
+            <li>Servicio de instalacion y mantenimiento  de cámaras de conservación y congelación</li>
+            <li>Supervisión de funcionamiento de containers reefer</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+         </strong>
             <img
                   src={reefer}
                   alt="reefer ICON"

@@ -21,11 +21,15 @@ export const ServiceModalDry = ({showModal, onHide}) => {
           </Modal.Header>
           <Modal.Body>
             <h4>Servicios</h4>
-            <p>
-              Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-              dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-              consectetur ac, vestibulum at eros.
-            </p>
+          <strong>
+            <ul>
+              <li>Diseño de oficinas con separaciones drywall y cielo raso</li>
+              <li>Mantenimiento de instalaciones Drywall</li>
+              <li>Instalaciones electricas en paredes drywall y cielo raso</li>
+              <li>Instalaciones de estructuras drywall para empresas industriales y residencias</li>
+              <li>Pintura de Interioes y exteriores en estructuras Drywall</li>
+            </ul>
+          </strong>
             <img
                   src={drywall}
                   alt="drywall ICON"

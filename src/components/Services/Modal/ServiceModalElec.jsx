@@ -20,11 +20,16 @@ export const ServiceModalElec = ({showModal, onHide}) => {
       </Modal.Header>
       <Modal.Body>
         <h4>Servicios</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
+        <strong>
+        <ul>
+          <li>Servicio de Mantenimiento de Motores trifasicos y Monofasicos.</li>
+          <li>Instalacion y Desinstalacion de motores en planta.</li>
+          <li>Servicio de Instalaciones Electricos a empresas industriales.</li>
+          <li>Servicio de Instalaciones Electricos a Galerias y Departamentos.</li>
+          <li>Servicio de montaje  y Mantenimiento de equipos y sistemas eléctricos en media y baja tensión.</li>
+          <li>Instalacion de tableros électricos.</li>
+        </ul>
+        </strong>
         <img
           src={electrical}
           alt="electrical ICON"

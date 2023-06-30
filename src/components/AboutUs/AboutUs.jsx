@@ -23,20 +23,25 @@ export const AboutUs = () => {
           <Col>
             <h2>Mision</h2>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo exercitationem alias qui at facere velit recusandae, dolores aliquid rerum sequi ratione ducimus sint quo eius harum, voluptate aspernatur, accusantium nisi.
+                Ser una empresa que brinda servicio de excelencia en variedad y calidad, ofreciendo soluciones prácticas, viables y economicamente rentables, cummpliendo con los estandares de seguridad y cuidado del medio ambiente en todas sus operaciones, ofreciendo una garantía optima con marcas nacionales e internacionales.
             </p>
           </Col>
           <Col>
             <h2>Vision</h2>
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde aliquid quia temporibus dignissimos, voluptatem eum adipisci hic facere reprehenderit repellendus suscipit velit sed iusto impedit, nam at qui consequatur mollitia.
+                Ser una empresa de servicios reconocida, como líder en el mercado nacional en prestación de servicios eléctricos, mecánicos y de Automatización, tanto por nuestros clientes como nuestros proveedores, con el propósito de tener una mejora continua y buscar el incremento de nuestra eficacia y asi brindar soluciones en buena calidad y garantía que se adecuen a sus necesidades
             </p>
           </Col>
           <Col>
             <h2>Valores</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quasi impedit ducimus quis sint aperiam iusto sed suscipit ab reiciendis, eius dolor ullam nostrum error modi mollitia facilis necessitatibus. Voluptatum?
-            </p>
+              <ul className="valores">
+                <li>ÉTICA</li>
+                <li>PASIÓN</li>
+                <li>PUNTUALIDAD</li>
+                <li>RESPONSABILIDAD</li>
+                <li>TRANSPARENCIA</li>
+                <li>CALIDAD</li>
+              </ul>
           </Col>
         </Row>
       </Container>

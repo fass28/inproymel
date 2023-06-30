@@ -7,3 +7,14 @@ h1{
     padding: 25px 0;
     margin-bottom: 20px;
 }
+body{
+    background: linear-gradient(215deg, #B0F2B4, #D07957, #8DB8DF);
+background-size: 600% 600%;
+animation: GradientAnimation 1s ease infinite;
+}
+
+@keyframes GradientAnimation {
+0%{background-position: 51% 0%}
+50%{background-position: 49% 100%}
+100%{background-position:51% 0%}
+}

@@ -21,11 +21,16 @@ export const ServiceModalMech = ({showModal, onHide}) => {
           </Modal.Header>
           <Modal.Body>
             <h4>Servicios</h4>
-            <p>
-              Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-              dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-              consectetur ac, vestibulum at eros.
-            </p>
+            <strong>
+        <ul>
+          <li>Mantenimiento de Motoreductores.</li>
+          <li>Servicio de soldadura eléctrica, TIG, MIG, corte y soldadura oxiacetilenica.</li>
+          <li>Servicio de diseño mecánico, montaje e instalacion de sistema de tuberias conduit.</li>
+          <li>Servicio de mantenimiento mecánico industrial (preventivo, correctivo y predictivo).</li>
+          <li>Servicio de diseño de piezas mecanicas con torno.</li>
+          <li>Diseño  de tableros électricos industriales y domesticos.</li>
+        </ul>
+        </strong>
             <img
                   src={mech}
                   alt="mech ICON"
