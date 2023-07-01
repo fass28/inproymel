@@ -1,13 +1,13 @@
 .welcome{
     opacity: 1.30;
-    height: 600px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .slide-img{
-    height: 600px;
+    height: 500px;
 }
 
 .welcome-text{
