@@ -35,12 +35,12 @@ export const AboutUs = () => {
           <Col>
             <h2>Valores</h2>
               <ul className="valores">
-                <li>ÉTICA</li>
-                <li>PASIÓN</li>
-                <li>PUNTUALIDAD</li>
-                <li>RESPONSABILIDAD</li>
-                <li>TRANSPARENCIA</li>
-                <li>CALIDAD</li>
+                <li>Ética</li>
+                <li>Pasión</li>
+                <li>Puntualidad</li>
+                <li>Responsabilidad</li>
+                <li>Transparencia</li>
+                <li>Calidad</li>
               </ul>
           </Col>
         </Row>

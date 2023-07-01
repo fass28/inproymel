@@ -22,6 +22,14 @@ import "./Welcome.css";
 export const Welcome = () => {
   return (
     <section className="welcome" id="welcome">
+      <div className="welcome-text">
+        <h1>Bienvenido</h1>
+        <h3>¿Buscando algun Servicio?</h3>
+        <p>En Inproymel estamos para ayudarte y 
+        <br/>
+        brindarte la mejor experiencia con trabajos seguros.
+        </p>
+      </div>
       <Swiper
         spaceBetween={30}
         effect={"fade"}
@@ -36,10 +44,12 @@ export const Welcome = () => {
         modules={[Autoplay, Pagination, Navigation, EffectFade]}
         className="mySwiper"
       >
+        <div className="before"></div>
         <SwiperSlide className="slide-img"><img src={img_7} alt=""  id="welcome-img"/></SwiperSlide>
         <SwiperSlide className="slide-img"><img src={img_6} alt=""  id="welcome-img"/></SwiperSlide>
         <SwiperSlide className="slide-img"><img src={img_8} alt="" id="welcome-img" /></SwiperSlide>
         <SwiperSlide className="slide-img"><img src={img_9} alt=""  id="welcome-img"/></SwiperSlide>
+        <div className="after"></div>
       </Swiper>
     </section>
   );

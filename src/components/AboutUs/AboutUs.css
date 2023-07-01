@@ -6,5 +6,7 @@
 }
 
 .valores{
-    text-align: left;
+    text-align: center;
+    list-style-type: none;
+
 }

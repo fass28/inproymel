@@ -1,9 +1,28 @@
 .welcome{
     opacity: 1.30;
-    height: 900px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.welcome-text{
+   position: absolute;
+   z-index: 3;
+   left: 55px;
+   top: 150px;
+}
+
+.welcome-text h1, h3{
+    color: white;
+    text-align: left;
+}
+
+.welcome-text p{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 35px;
 }
 
 h1{
@@ -11,9 +30,7 @@ h1{
 }
 
 .slide-img{
-    height: 900px;
-    width: 1000px;
-    background-color: white;
+    height: 500px;
 }
 
 #welcome-img{
@@ -21,4 +38,26 @@ h1{
    width: 100%;
    height: 100%;
     background-color: green;
+}
+
+.before{
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+    background: linear-gradient(90deg,#202125 0,rgba(31,68,86,.6) 40%,rgba(32,33,37,0) 60%,rgba(32,33,37,0) 80%,#202125 100%);
+}
+
+.after{
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+    background: linear-gradient(90deg,#202125 0,rgba(31,68,86,.6) 40%,rgba(32,33,37,0) 60%,rgba(32,33,37,0) 80%,#202125 100%);
 }
