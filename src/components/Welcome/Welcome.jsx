@@ -8,11 +8,13 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import img_1 from "../../assets/imagenes/welcome-img/img-1.avif";
+
 import img_7 from "../../assets/imagenes/welcome-img/img-7.jpg";
 import img_6 from "../../assets/imagenes/welcome-img/img-6.jpg";
-import img_8 from "../../assets/imagenes/welcome-img/img-8.jpg";
+import img_2 from "../../assets/imagenes/welcome-img/img-2.avif";
 import img_9 from "../../assets/imagenes/welcome-img/img-9.jpg";
+import img_12 from "../../assets/imagenes/welcome-img/img-12.jpg";
+import img_13 from "../../assets/imagenes/welcome-img/img-13.jpg";
 
 // import required modules
 import { EffectFade, Navigation, Pagination, Autoplay } from "swiper";
@@ -24,7 +26,7 @@ export const Welcome = () => {
     <section className="welcome" id="welcome">
       <div className="welcome-text">
         <h1>Bienvenido</h1>
-        <h3>¿Buscando algun Servicio?</h3>
+        <h3>¿Buscando algún Servicio?</h3>
         <p>En Inproymel estamos para ayudarte y 
         <br/>
         brindarte la mejor experiencia con trabajos seguros.
@@ -45,10 +47,12 @@ export const Welcome = () => {
         className="mySwiper"
       >
         <div className="before"></div>
-        <SwiperSlide className="slide-img"><img src={img_7} alt=""  id="welcome-img"/></SwiperSlide>
-        <SwiperSlide className="slide-img"><img src={img_6} alt=""  id="welcome-img"/></SwiperSlide>
-        <SwiperSlide className="slide-img"><img src={img_8} alt="" id="welcome-img" /></SwiperSlide>
-        <SwiperSlide className="slide-img"><img src={img_9} alt=""  id="welcome-img"/></SwiperSlide>
+        <SwiperSlide className="slide-img"><img src={img_7} alt=""  className="welcome-img"/></SwiperSlide>
+        <SwiperSlide className="slide-img"><img src={img_6} alt=""  className="welcome-img"/></SwiperSlide>
+        <SwiperSlide className="slide-img"><img src={img_2} alt="" className="welcome-img" /></SwiperSlide>
+        <SwiperSlide className="slide-img"><img src={img_9} alt=""  className="welcome-img"/></SwiperSlide>
+        <SwiperSlide className="slide-img"><img src={img_12} alt=""  className="welcome-img"/></SwiperSlide>
+        <SwiperSlide className="slide-img"><img src={img_13} alt=""  className="welcome-img"/></SwiperSlide>
         <div className="after"></div>
       </Swiper>
     </section>

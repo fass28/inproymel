@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-.swiper-slide img {
+.swiper-slide .clientes-img {
 height: 50px;
 margin-bottom: 60px;
 }
