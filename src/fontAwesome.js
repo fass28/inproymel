@@ -6,6 +6,7 @@ import {
   faLinkedin,
   faInstagram,
   faTiktok,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faCalendarDays,
@@ -25,5 +26,6 @@ library.add(
   faCalendarDays,
   faClock,
   faThumbsUp,
-  faTruckPickup
+  faTruckPickup,
+  faWhatsapp
 );
