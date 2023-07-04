@@ -4,8 +4,8 @@
     bottom: 100px;
     z-index: 99;
     background-color: white;
-    color: #25d366;
-    border-color: #25d366;
+    color: #22c15e;
+    border-color: #22c15e;
     border: 4px solid;
     font-size: 16px;
     height: 31px;
@@ -15,9 +15,9 @@
 
 
 #whatsApp{
-    background-color: #25d366;
-    height: 80px;
-    width: 80px;
+    background-color: #22c15e;
+    height: 50px;
+    width: 50px;
     position: fixed;
     right: 5px;
     bottom: 10px;
@@ -39,12 +39,17 @@
 	animation-iteration-count: infinite;
 }
 
+#whatsApp:hover {
+    height: 80px;
+    width: 80px;
+}
+
 @keyframes pulse {
 	0% {
-		box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+		box-shadow: 0 0 0 0 rgba(64, 227, 124, 0.5);
 	}
 	80% {
-		box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+		box-shadow: 0 0 0 14px rgba(61, 175, 103, 0);
 	}
 }
 
@@ -52,3 +57,4 @@
     height: 40px;
     color: white;
 }
+

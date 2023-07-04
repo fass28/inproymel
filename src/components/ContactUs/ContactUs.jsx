@@ -51,7 +51,7 @@ export const ContactUs = () => {
                     label="Tu nombre"
                     className="mb-3"
                   >
-                    <Form.Control type="text" placeholder="nombre" />
+                    <Form.Control type="text" placeholder="nombre" required />
                   </FloatingLabel>
                 </Col>
                 <Col>
@@ -59,10 +59,12 @@ export const ContactUs = () => {
                     controlId="floatingInput"
                     label="Direccion Email"
                     className="mb-3"
+                    type="email"
                   >
                     <Form.Control
                       type="email"
                       placeholder="nombre@ejemplo.com"
+                      required
                     />
                   </FloatingLabel>
                 </Col>
@@ -71,19 +73,21 @@ export const ContactUs = () => {
                 controlId="floatingInput"
                 label="Asunto"
                 className="mb-3"
+                required
               >
-                <Form.Control type="text" placeholder="Asunto" />
+                <Form.Control type="text" placeholder="Asunto" required />
               </FloatingLabel>
               <FloatingLabel
                 controlId="floatingInput"
                 label="Mensaje"
                 className="mb-3"
               >
-                <Form.Control 
-                  as="textarea" 
-                  placeholder="Mensaje" 
-                  style={{ height: '115px' }}
-                  />
+                <Form.Control
+                  as="textarea"
+                  placeholder="Mensaje"
+                  required
+                  style={{ height: "115px" }}
+                />
               </FloatingLabel>
               <Button variant="primary" type="submit">
                 Enviar Mensaje
