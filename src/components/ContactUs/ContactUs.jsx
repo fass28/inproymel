@@ -47,16 +47,16 @@ export const ContactUs = () => {
               <Row>
                 <Col>
                   <FloatingLabel
-                    controlId="floatingInputName"
+                    controlId="Nombre de la Persona"
                     label="Tu Nombre"
                     className="mb-3"
                   >
-                    <Form.Control type="text" placeholder="nombre" name="floatingInputName" required />
+                    <Form.Control type="text" placeholder="nombre" name="Nombre de la Persona" required />
                   </FloatingLabel>
                 </Col>
                 <Col>
                   <FloatingLabel
-                    controlId="floatingInputEmail"
+                    controlId="Direccion de Correo"
                     label="Tu correo"
                     className="mb-3"
                     type="email"
@@ -64,29 +64,29 @@ export const ContactUs = () => {
                     <Form.Control
                       type="email"
                       placeholder="nombre@ejemplo.com"
-                      name="floatingInputEmail"
+                      name="Direccion de Correo"
                       required
                     />
                   </FloatingLabel>
                 </Col>
               </Row>
               <FloatingLabel
-                controlId="floatingInputIssue"
+                controlId="Asunto"
                 label="Asunto"
                 className="mb-3"
                 required
               >
-                <Form.Control type="text" placeholder="Asunto" name="floatingInputIssue" required />
+                <Form.Control type="text" placeholder="Asunto" name="Asunto" required />
               </FloatingLabel>
               <FloatingLabel
-                controlId="floatingInputMessage"
+                controlId="Mensaje"
                 label="Mensaje"
                 className="mb-3"
               >
                 <Form.Control
                   as="textarea"
                   placeholder="Mensaje"
-                  name="floatingInputMessage"
+                  name="Mensaje"
                   required
                   style={{ height: "115px" }}
                 />
