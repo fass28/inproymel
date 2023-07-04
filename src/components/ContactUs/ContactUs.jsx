@@ -43,48 +43,50 @@ export const ContactUs = () => {
             </div>
           </Col>
           <Col xs={8}>
-            <Form>
+            <Form action="https://formspree.io/f/maygwrvb" method="POST">
               <Row>
                 <Col>
                   <FloatingLabel
-                    controlId="floatingInput"
-                    label="Tu nombre"
+                    controlId="floatingInputName"
+                    label="Tu Nombre"
                     className="mb-3"
                   >
-                    <Form.Control type="text" placeholder="nombre" required />
+                    <Form.Control type="text" placeholder="nombre" name="floatingInputName" required />
                   </FloatingLabel>
                 </Col>
                 <Col>
                   <FloatingLabel
-                    controlId="floatingInput"
-                    label="Direccion Email"
+                    controlId="floatingInputEmail"
+                    label="Tu correo"
                     className="mb-3"
                     type="email"
                   >
                     <Form.Control
                       type="email"
                       placeholder="nombre@ejemplo.com"
+                      name="floatingInputEmail"
                       required
                     />
                   </FloatingLabel>
                 </Col>
               </Row>
               <FloatingLabel
-                controlId="floatingInput"
+                controlId="floatingInputIssue"
                 label="Asunto"
                 className="mb-3"
                 required
               >
-                <Form.Control type="text" placeholder="Asunto" required />
+                <Form.Control type="text" placeholder="Asunto" name="floatingInputIssue" required />
               </FloatingLabel>
               <FloatingLabel
-                controlId="floatingInput"
+                controlId="floatingInputMessage"
                 label="Mensaje"
                 className="mb-3"
               >
                 <Form.Control
                   as="textarea"
                   placeholder="Mensaje"
+                  name="floatingInputMessage"
                   required
                   style={{ height: "115px" }}
                 />
