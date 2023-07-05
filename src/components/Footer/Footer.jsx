@@ -16,33 +16,73 @@ export const Footer = () => {
       <section className="footer" id="footer">
         <div className="redes-shadow"></div>
         <div className="footer-redes">
-          <strong>Siguenos en:</strong>
-            <a href="" id='icon'><FontAwesomeIcon icon={['fab', 'facebook']} className="follow-icon" /> </a>
-            <a href="" id='icon'><FontAwesomeIcon icon={['fab', 'linkedin']}  className="follow-icon"/> </a>
-            <a href="" id='icon'><FontAwesomeIcon icon={['fab', 'tiktok']} className="follow-icon"/> </a>
-            <a href="" id='icon'><FontAwesomeIcon icon={['fab', 'instagram']}  className="follow-icon"/> </a>
+          <span>
+            <strong>Siguenos en:</strong>
+          </span>
+          <a
+            href="https://www.facebook.com/profile.php?id=100094046366328&mibextid=ZbWKwL"
+            target="_blank"
+            id="icon"
+          >
+            <FontAwesomeIcon
+              icon={["fab", "facebook"]}
+              className="follow-icon"
+            />{" "}
+          </a>
+          <a
+            href="https://www.linkedin.com/in/inproymel-inproymel-206176227/"
+            target="_blank"
+            id="icon"
+          >
+            <FontAwesomeIcon
+              icon={["fab", "linkedin"]}
+              className="follow-icon"
+            />{" "}
+          </a>
+          <a href="" id="icon">
+            <FontAwesomeIcon icon={["fab", "tiktok"]} className="follow-icon" />{" "}
+          </a>
+          <a
+            href="https://instagram.com/inproymel.sac?igshid=MzNlNGNkZWQ4Mg=="
+            target="_blank"
+            id="icon"
+          >
+            <FontAwesomeIcon
+              icon={["fab", "instagram"]}
+              className="follow-icon"
+            />{" "}
+          </a>
         </div>
         <Container>
           <Row>
             <Col>
-              <h6 className="footer-title"><strong>ACERCA DE NOSOTROS</strong></h6>
+              <h6 className="footer-title">
+                <strong>ACERCA DE NOSOTROS</strong>
+              </h6>
               <p>
-              Somos una empresa creada para atender las grandes demandas y necesidades del sector de Automatizacion,Electrico y mecanico  en ámbitos industriales de empresas de manufacturas y construcción.
+                Somos una empresa creada para atender las grandes demandas y
+                necesidades del sector de Automatizacion,Electrico y mecanico en
+                ámbitos industriales de empresas de manufacturas y construcción.
               </p>
             </Col>
             <Col>
-              <h6 className="footer-title"><strong>HORARIO DE OFICINA</strong></h6>
-              <p>Estamos para apoyarte
-             <br/>
-              De lunes a domingo
-             <br/>
-              de 8 am hasta 7pm
-             <br/> 
-              Trabajamos tambien feriados!
+              <h6 className="footer-title">
+                <strong>HORARIO DE OFICINA</strong>
+              </h6>
+              <p>
+                Estamos para apoyarte
+                <br />
+                De lunes a domingo
+                <br />
+                de 8 am hasta 7pm
+                <br />
+                Trabajamos tambien feriados!
               </p>
             </Col>
             <Col>
-              <h6 className="footer-title"><strong>NUESTRO CONTACTO</strong></h6>
+              <h6 className="footer-title">
+                <strong>NUESTRO CONTACTO</strong>
+              </h6>
               <Row className="footer-col">
                 <Col xs={2}>
                   <FontAwesomeIcon
@@ -79,9 +119,9 @@ export const Footer = () => {
       <section className="sub-footer">
         <p>
           Copyrigth <span>© Inproymel</span> Website 2023
-          <br/>
-       *Todos los derechos reservados*
-       </p>
+          <br />
+          *Todos los derechos reservados*
+        </p>
       </section>
     </>
   );

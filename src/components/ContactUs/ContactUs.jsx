@@ -20,29 +20,47 @@ export const ContactUs = () => {
       <Container>
         <Row>
           <Col>
-            <div>
-              <h3>
-                <FontAwesomeIcon icon={faLocationDot} className="icon" />
-                Direccion
-              </h3>
-              <h6>CAL.19 MZA. J LOTE. 3 COO. COOPEMMAR - VENTANILLA</h6>
-            </div>
-            <div>
-              <h3>
-                <FontAwesomeIcon icon={faEnvelope} className="icon" />
-                Email
-              </h3>
-              <h6>ventas@inproymel.com</h6>
-            </div>
-            <div>
-              <h3>
-                <FontAwesomeIcon icon={faPhone} className="icon" />
-                Llámanos
-              </h3>
-              <h6>+51 934862130</h6>
-            </div>
+            <Row>
+              <div className="data">
+                <Col>
+                  <h3>
+                    <FontAwesomeIcon icon={faLocationDot} className="icon" />
+                    Direccion
+                  </h3>
+                </Col>
+                <Col>
+                  <h6>CAL.19 MZA. J LOTE. 3 COO. COOPEMMAR - VENTANILLA</h6>
+                </Col>
+              </div>
+            </Row>
+            <Row>
+              <div className="data">
+                <Col>
+                  <h3>
+                    <FontAwesomeIcon icon={faEnvelope} className="icon" />
+                    Email
+                  </h3>
+                </Col>
+                <Col>
+                  <h6>ventas@inproymel.com</h6>
+                </Col>
+              </div>
+            </Row>
+            <Row>
+              <div className="data">
+                <Col>
+                  <h3>
+                    <FontAwesomeIcon icon={faPhone} className="icon" />
+                    Llámanos
+                  </h3>
+                </Col>
+                <Col>
+                  <h6>+51 934862130</h6>
+                </Col>
+              </div>
+            </Row>
           </Col>
-          <Col xs={8}>
+          <Col lg={8} xs={12}>
             <Form action="https://formspree.io/f/maygwrvb" method="POST">
               <Row>
                 <Col>
@@ -51,7 +69,12 @@ export const ContactUs = () => {
                     label="Tu Nombre"
                     className="mb-3"
                   >
-                    <Form.Control type="text" placeholder="nombre" name="Nombre de la Persona" required />
+                    <Form.Control
+                      type="text"
+                      placeholder="nombre"
+                      name="Nombre de la Persona"
+                      required
+                    />
                   </FloatingLabel>
                 </Col>
                 <Col>
@@ -76,7 +99,12 @@ export const ContactUs = () => {
                 className="mb-3"
                 required
               >
-                <Form.Control type="text" placeholder="Asunto" name="Asunto" required />
+                <Form.Control
+                  type="text"
+                  placeholder="Asunto"
+                  name="Asunto"
+                  required
+                />
               </FloatingLabel>
               <FloatingLabel
                 controlId="Mensaje"

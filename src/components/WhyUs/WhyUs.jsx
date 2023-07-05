@@ -11,7 +11,7 @@ export const WhyUs = () => {
       <h1>¿Por qué Elegirnos?</h1>
       <Container>
         <Row>
-          <Col>
+          <Col xs={12} sm={3}>
             <h2>
               <span className="why-icon">
                 <FontAwesomeIcon icon="fa-solid fa-people-roof" />
@@ -22,7 +22,7 @@ export const WhyUs = () => {
                 Porque nuestros colaboradores son técnicos profesionales capacitados y certificados en el área de industrial.
             </p>
           </Col>
-          <Col>
+          <Col xs={12} sm={3}>
             <h2>
               <span className="why-icon">
                 <FontAwesomeIcon icon="fa-solid fa-calendar-days" />
@@ -33,7 +33,7 @@ export const WhyUs = () => {
                 Porque nuestros técnicos suman más de 10 años de experiencia en el ámbito profesional con certificaciones.
             </p>
           </Col>
-          <Col>
+          <Col xs={12} sm={3}>
             <h2>
               <span className="why-icon">
               <FontAwesomeIcon icon="fa-solid fa-truck-pickup" />
@@ -44,7 +44,7 @@ export const WhyUs = () => {
                 Porque sabemos lo importante que es  una rápida respuesta hacia nuestros clientes, por ello trabajamos los 7 dias dias a la semana y tambien feriados.
             </p>
           </Col>
-          <Col>
+          <Col xs={12} sm={3}>
             <h2>
               <span className="why-icon">
                 <FontAwesomeIcon icon="fa-solid fa-thumbs-up" />

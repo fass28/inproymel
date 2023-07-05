@@ -8,7 +8,10 @@ export const NavBar = () => {
     <nav>
         <Navbar collapseOnSelect expand="lg"  variant="dark">
             <Container>
-              <Navbar.Brand href="#home">INPRO<span style={{color:"white"}}>YMEL</span></Navbar.Brand>
+              <Navbar.Brand href="#home">
+                INPRO<span style={{color:"white"}}>YMEL</span>
+              
+              </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto nav-items">

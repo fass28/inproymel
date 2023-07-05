@@ -1,5 +1,4 @@
 .about-Us{
-    height: 460px;
     align-items: center;
     text-align: center;
     color: black;
@@ -9,4 +8,25 @@
     text-align: center;
     list-style-type: none;
 
+}
+
+@media  (max-width: 480px){
+    .about-Us h1{
+        font-size: 20px ;
+    }
+
+    .about-Us h2 {
+        font-size: 18px ;
+    }
+
+    .about-Us h3 {
+        font-size: 14px ;
+    }
+
+    .about-Us p{
+        font-size: 11px ; 
+    }
+    .about-Us li{
+        font-size: 11px;
+    }
 }

@@ -80,43 +80,58 @@ export const Services = () => {
 
       <Container>
         <Row>
-          <Col className="col-img" onClick={modalAuto}>
-            <img
-              src={automation_svg}
-              alt="AutomationSVG ICON"
-              className="icon-img"
-            />
-            <h6>Automatización Industrial</h6>
+          <Col xs={12} lg={4} md={6} onClick={modalAuto}>
+            <div className="col-img">
+              <img
+                src={automation_svg}
+                alt="AutomationSVG ICON"
+                className="icon-img"
+              />
+              <h6>Automatización Industrial</h6>
+            </div>
           </Col>
-          <Col className="col-img" onClick={modalElec}>
-            <img
-              src={electrical_svg}
-              alt="electricalSVG ICON"
-              className="icon-img"
-            />
-            <h6> Electricidad Industrial y Domestica</h6>
+          <Col xs={12} lg={4} md={6} onClick={modalElec}>
+            <div className="col-img">
+              <img
+                src={electrical_svg}
+                alt="electricalSVG ICON"
+                className="icon-img"
+              />
+              <h6> Electricidad Industrial y Domestica</h6>
+            </div>
           </Col>
-          <Col className="col-img" onClick={modalMech}>
-            <img
-              src={mechanical_svg}
-              alt="mechanicalSVG ICON"
-              className="icon-img"
-            />
-            <h6>Mecánica Industrial</h6>{" "}
+          <Col xs={12} lg={4} md={6} onClick={modalMech}>
+            <div className="col-img">
+              <img
+                src={mechanical_svg}
+                alt="mechanicalSVG ICON"
+                className="icon-img"
+              />
+              <h6>Mecánica Industrial</h6>
+            </div>
           </Col>
-        </Row>
-        <Row>
-          <Col className="col-img" onClick={modalReefer}>
-            <img src={reefer_svg} alt="reeferSVG ICON" className="icon-img" />
-            <h6> Asistencia de contenedores refrigerados</h6>
+
+          <Col xs={12} lg={4} md={6} onClick={modalReefer}>
+            <div className="col-img">
+              <img src={reefer_svg} alt="reeferSVG ICON" className="icon-img" />
+              <h6> Asistencia de contenedores refrigerados</h6>
+            </div>
           </Col>
-          <Col className="col-img" onClick={modalAc}>
-            <img src={ac_svg} alt="acSVG ICON" className="icon-img" />
-            <h6>Aire Acondicionado</h6>
+          <Col xs={12} lg={4} md={6} onClick={modalAc}>
+            <div className="col-img">
+              <img src={ac_svg} alt="acSVG ICON" className="icon-img" />
+              <h6>Aire Acondicionado</h6>
+            </div>
           </Col>
-          <Col className="col-img" onClick={modalDrywall}>
-            <img src={drywall_svg} alt="drywallSVG ICON" className="icon-img" />
-            <h6>Carpinteria y Drywall</h6>
+          <Col xs={12} lg={4} md={6} onClick={modalDrywall}>
+            <div className="col-img">
+              <img
+                src={drywall_svg}
+                alt="drywallSVG ICON"
+                className="icon-img"
+              />
+              <h6>Carpinteria y Drywall</h6>
+            </div>
           </Col>
         </Row>
       </Container>

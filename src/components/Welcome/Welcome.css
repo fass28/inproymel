@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .slide-img{
@@ -29,9 +30,7 @@
     margin-top: 35px;
 }
 
-h1{
-    color:white;
-}
+
 
 
 
@@ -67,4 +66,22 @@ h1{
     right: 0;
     bottom: 0;
     background: linear-gradient(90deg,#202125 0,rgba(31,68,86,.6) 40%,rgba(32,33,37,0) 60%,rgba(32,33,37,0) 80%,#202125 100%);
+}
+
+
+@media  (max-width: 480px){
+    .welcome-text h1{
+        font-size: 20px ;
+    }
+    .welcome-text h3{
+        font-size: 14px ;
+    }
+    .welcome-text p{
+        font-size: 11px ;
+        text-shadow: 2px 2px black;
+    }
+    .welcome-text{
+        margin: 0;
+        left: 32px;
+    }
 }

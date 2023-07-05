@@ -1,9 +1,22 @@
 .whyUs{
-    height: 300px;
     text-align: center;
 }
 
 .why-icon{
     color: rgba(31,68,86,255);
     margin-right: 15px;
+}
+
+@media  (max-width: 480px){
+    .whyUs h1{
+        font-size: 20px;
+    }
+    .whyUs h2{
+        font-size: 18px;
+    }
+    p{
+        font-size: 11px ;
+        padding: 10px 60px;
+    }
+
 }

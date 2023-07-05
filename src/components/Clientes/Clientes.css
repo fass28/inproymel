@@ -1,7 +1,6 @@
 .clientes {
-  height: 250px;
-  background-color: white;
   text-align: center;
+  padding: 50px 0;
 }
 
 
@@ -19,4 +18,13 @@
 .swiper-slide .clientes-img {
 height: 50px;
 margin-bottom: 60px;
+}
+
+@media  (max-width: 480px){
+  .clientes h1{
+    font-size: 20px;
+  }
+  .swiper-slide .clientes-img {
+    height: 25px;
+  }
 }
