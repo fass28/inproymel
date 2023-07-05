@@ -68,6 +68,9 @@
     background: linear-gradient(90deg,#202125 0,rgba(31,68,86,.6) 40%,rgba(32,33,37,0) 60%,rgba(32,33,37,0) 80%,#202125 100%);
 }
 
+.swiper-button-next, .swiper-button-prev{
+    color: white
+}
 
 @media  (max-width: 480px){
     .welcome-text h1{
@@ -82,6 +85,8 @@
     }
     .welcome-text{
         margin: 0;
-        left: 32px;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 15px;
     }
 }
