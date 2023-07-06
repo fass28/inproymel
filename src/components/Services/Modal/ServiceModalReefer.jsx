@@ -3,47 +3,46 @@ import Modal from "react-bootstrap/Modal";
 
 import reefer from "../../../assets/imagenes/services-img/reefer.jpg";
 
+import "./Modal.css";
 
-import "./Modal.css"
+export const ServiceModalReefer = ({ showModal, onHide }) => {
+  return (
+    <Modal
+      show={showModal}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton className="modal-Header">
+        <Modal.Title id="contained-modal-title-vcenter">
+          Asistencia de Contenedores Refierados
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <h4>Servicios</h4>
 
-export const ServiceModalReefer = ({showModal, onHide}) => {
-    return (
-        <Modal
-          show={showModal}
-          size="lg"
-          aria-labelledby="contained-modal-title-vcenter"
-          centered
-        >
-          <Modal.Header closeButton className="modal-Header">
-            <Modal.Title id="contained-modal-title-vcenter" > 
-            Asistencia de Contenedores Refierados
-            </Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <h4>Servicios</h4>
-         <strong>
-          <ul>
-            <li>Reparación y mantenimiento de equipos de refigeración.</li>
-            <li>Servicio de instalación y mantenimiento  de cámaras de conservación y congelación.</li>
-            <li>Supervisión de funcionamiento de containers reefer.</li>
-            <li>Mantenimiento Preventivo, correctivo y predictivo.</li>
-            <li>Instalación y puesta en marcha.</li>
-            <li>Pre-trip Inspection(PTI) para reefers</li>
-            <li>Supervisión de funcionamiento de contenedores refigerados.</li>
-            <li>Inspección y reparación estructural de contendores.</li>
-            <li>Inspección y reparacion de compresor, evaporadoir, condensador,etc.</li>
-            <li></li>
-          </ul>
-         </strong>
-            <img
-                  src={reefer}
-                  alt="reefer ICON"
-                  className="services-img"
-                />
-          </Modal.Body>
-          <Modal.Footer>
-            <Button onClick={onHide}>Cerrar</Button>
-          </Modal.Footer>
-        </Modal>
-      );
-}
+        <ul className="modal-list">
+          <li>Reparación y mantenimiento de equipos de refigeración.</li>
+          <li>
+            Servicio de instalación y mantenimiento de cámaras de conservación y
+            congelación.
+          </li>
+          <li>Supervisión de funcionamiento de containers reefer.</li>
+          <li>Mantenimiento Preventivo, correctivo y predictivo.</li>
+          <li>Instalación y puesta en marcha.</li>
+          <li>Pre-trip Inspection(PTI) para reefers</li>
+          <li>Supervisión de funcionamiento de contenedores refigerados.</li>
+          <li>Inspección y reparación estructural de contendores.</li>
+          <li>
+            Inspección y reparacion de compresor, evaporadoir, condensador,etc.
+          </li>
+        </ul>
+
+        <img src={reefer} alt="reefer ICON" className="services-img" />
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={onHide}>Cerrar</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+};

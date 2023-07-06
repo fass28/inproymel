@@ -3,13 +3,9 @@ import Modal from "react-bootstrap/Modal";
 
 import automation from "../../../assets/imagenes/services-img/automation.jpg";
 
+import "./Modal.css";
 
-import "./Modal.css"
-
-
-
-
-export const ServiceModalAuto = ({showModal, onHide}) => {  
+export const ServiceModalAuto = ({ showModal, onHide }) => {
   return (
     <Modal
       show={showModal}
@@ -18,27 +14,28 @@ export const ServiceModalAuto = ({showModal, onHide}) => {
       centered
     >
       <Modal.Header closeButton className="modal-Header">
-        <Modal.Title id="contained-modal-title-vcenter" > 
-        Automatizacion Industrial
+        <Modal.Title id="contained-modal-title-vcenter">
+          Automatizacion Industrial
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <h4>Servicios</h4>
-        <strong>
-        <ul>
-          <li>Servicio de automatización industrial en funcionamiento continuo.</li>
-          <li>Programacion y comisionamiento de PLC's, SIEMENS, ONROM, ALLEN BRADLEY, ABB.</li>
+
+        <ul className="modal-list">
+          <li>
+            Servicio de automatización industrial en funcionamiento continuo.
+          </li>
+          <li>
+            Programacion y comisionamiento de PLC's, SIEMENS, ONROM, ALLEN
+            BRADLEY, ABB.
+          </li>
           <li>Servicio de programación SCADA</li>
           <li>Servicio de Upgrade de PLC, SCADA y HMI</li>
           <li>Configuración de Instrumentos industriales</li>
           <li>Configuración de redes de telecomunicacion</li>
         </ul>
-        </strong>
-        <img
-              src={automation}
-              alt="Automation ICON"
-              className="services-img"
-            />
+
+        <img src={automation} alt="Automation ICON" className="services-img" />
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={onHide}>Cerrar</Button>

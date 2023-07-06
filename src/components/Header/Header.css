@@ -10,10 +10,12 @@ nav{
     margin: 0 auto;
 }
 
-.items{
- margin: 0 18px;
-}
-
 .whatsapp{
     background-color: green;
+}
+
+.me-auto h4{
+    font-size: 16px;
+    text-align: center;
+    margin-right: 10px;
 }

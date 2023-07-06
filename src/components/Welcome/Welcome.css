@@ -82,6 +82,7 @@
     .welcome-text p{
         font-size: 11px ;
         text-shadow: 2px 2px black;
+        padding: 20px 0;
     }
     .welcome-text{
         margin: 0;

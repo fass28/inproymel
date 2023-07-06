@@ -1,32 +1,34 @@
-.about-Us{
-    align-items: center;
-    text-align: center;
-    color: black;
+.about-Us {
+  align-items: center;
+  text-align: center;
+  color: black;
 }
 
-.valores{
-    text-align: center;
-    list-style-type: none;
-
+.valores {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-@media  (max-width: 480px){
-    .about-Us h1{
-        font-size: 20px ;
-    }
+@media (max-width: 480px) {
+  .about-Us h1 {
+    font-size: 20px;
+  }
 
-    .about-Us h2 {
-        font-size: 18px ;
-    }
+  .about-Us h2 {
+    font-size: 18px;
+  }
 
-    .about-Us h3 {
-        font-size: 14px ;
-    }
+  .about-Us h3 {
+    font-size: 14px;
+  }
 
-    .about-Us p{
-        font-size: 11px ; 
-    }
-    .about-Us li{
-        font-size: 11px;
-    }
+  .about-Us p {
+    font-size: 11px;
+  }
+  .about-Us li {
+    font-size: 11px;
+  }
 }
+
