@@ -19,49 +19,6 @@ export const ContactUs = () => {
       <h1>Contáctanos</h1>
       <Container>
         <Row>
-          <div className="data-separation">
-            <Col xs={12}>
-              <Row>
-                <div className="data">
-                  <Col>
-                    <h3>
-                      <FontAwesomeIcon icon={faLocationDot} className="icon" />
-                      Direccion
-                    </h3>
-                  </Col>
-                  <Col>
-                    <h6>CAL.19 MZA. J LOTE. 3 COO. COOPEMMAR - VENTANILLA</h6>
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="data">
-                  <Col>
-                    <h3>
-                      <FontAwesomeIcon icon={faEnvelope} className="icon" />
-                      Email
-                    </h3>
-                  </Col>
-                  <Col>
-                    <h6>ventas@inproymel.com</h6>
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="data">
-                  <Col>
-                    <h3>
-                      <FontAwesomeIcon icon={faPhone} className="icon" />
-                      Llámanos
-                    </h3>
-                  </Col>
-                  <Col>
-                    <h6>+51 934862130</h6>
-                  </Col>
-                </div>
-              </Row>
-            </Col>
-          </div>
           <Col xs={12}>
             <Form
               action="https://formspree.io/f/maygwrvb"

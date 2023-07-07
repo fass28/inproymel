@@ -86,9 +86,9 @@ export const Footer = () => {
                   />
                 </Col>
                 <Col xs={10}>
-                  <span className="text-icon">
-                    CAL.19 MZA. J LOTE. 3 COO. COOPEMMAR - VENTANILLA
-                  </span>
+                  <p className="text-icon">
+                    Calle 19 Mz J Lte 3 Cooperativa Coopemmar Ventanilla
+                  </p>
                 </Col>
               </Row>
               <Row className="footer-col">
@@ -96,7 +96,7 @@ export const Footer = () => {
                   <FontAwesomeIcon icon={faEnvelope} className="footer-icon" />
                 </Col>
                 <Col xs={10}>
-                  <span className="text-icon">ventas@inproymel.com</span>
+                  <p className="text-icon">ventas@inproymel.com</p>
                 </Col>
               </Row>
               <Row className="footer-col">
@@ -104,7 +104,7 @@ export const Footer = () => {
                   <FontAwesomeIcon icon={faPhone} className="footer-icon" />
                 </Col>
                 <Col xs={10}>
-                  <span className="text-icon">+51 934862130</span>
+                  <p className="text-icon">+51 934862130</p>
                 </Col>
               </Row>
             </Col>
