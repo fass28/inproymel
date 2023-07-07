@@ -8,7 +8,7 @@ export const WhatsApp = () => {
         <div className="whatsapp-text">
             <strong>Contáctanos !</strong>
         </div>
-      <div className="whatsApp" id="whatsApp">
+      <div className="whatsApp" id="whatsapp">
         <a href="https://wa.me/51934862130"   target="_blank" className="whatsapp-icon">
           <FontAwesomeIcon
             icon={["fab", "whatsapp"]}

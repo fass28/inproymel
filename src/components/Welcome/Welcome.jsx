@@ -35,16 +35,16 @@ export const Welcome = () => {
       </div>
       <Swiper
         spaceBetween={30}
-        effect={"fade"}
+        centeredSlides={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
-        /*        pagination={{
+   /*      pagination={{
           clickable: true,
         }} */
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation, EffectFade]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <div className="before"></div>

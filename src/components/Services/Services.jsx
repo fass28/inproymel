@@ -7,6 +7,8 @@ import { ServiceModalAuto } from "./Modal/ServiceModalAuto";
 import { ServiceModalElec } from "./Modal/ServiceModalElec";
 import { ServiceModalMech } from "./Modal/ServiceModalMech";
 import { ServiceModalReefer } from "./Modal/ServiceModalReefer";
+import { ServiceModalAc } from "./Modal/ServiceModalAc";
+import { ServiceModalDry } from "./Modal/ServiceModalDry";
 
 import automation_svg from "../../assets/imagenes/services-img/svg-icon/automation.svg";
 import electrical_svg from "../../assets/imagenes/services-img/svg-icon/electrical.svg";
@@ -15,8 +17,6 @@ import reefer_svg from "../../assets/imagenes/services-img/svg-icon/reefer.svg";
 import ac_svg from "../../assets/imagenes/services-img/svg-icon/ac.svg";
 import drywall_svg from "../../assets/imagenes/services-img/svg-icon/drywall.svg";
 import "./Services.css";
-import { ServiceModalAc } from "./Modal/ServiceModalAc";
-import { ServiceModalDry } from "./Modal/ServiceModalDry";
 
 export const Services = () => {
   const [modalShowAuto, setModalShowAuto] = useState(false);

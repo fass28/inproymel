@@ -72,10 +72,23 @@ body {
 }
 
 h1{
-    color:rgba(31,68,86,255);
+    color:#ff5a66;
     padding: 25px 0;
     margin-bottom: 20px;
 }
 
-
+@media  (max-width: 480px){
+ h1{
+  font-size: 25px;
+ }
+ h2{
+  font-size: 20px;
+ }
+ h3{
+  font-size: 15px;
+ }
+ p{
+  font-size: 14px;
+ }
+}
 

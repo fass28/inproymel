@@ -9,6 +9,7 @@ export const ServiceModalDry = ({ showModal, onHide }) => {
   return (
     <Modal
       show={showModal}
+      onHide={onHide}
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered

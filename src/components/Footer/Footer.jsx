@@ -69,13 +69,8 @@ export const Footer = () => {
               <h6 className="footer-title">
                 <strong>HORARIO DE OFICINA</strong>
               </h6>
-              <p>
-                Estamos para apoyarte
-                <br />
-                De lunes a domingo
-                <br />
-                de 8 am hasta 7pm
-                <br />
+              <p className="footer-horario">
+                Estamos para apoyarte De lunes a domingo de 8 am hasta 7pm
                 Trabajamos tambien feriados!
               </p>
             </Col>

@@ -14,15 +14,18 @@
     align-items: center;
     padding: 5px 5px;
     font-size: large;
+    border-radius: 10px;
 }
 
 .redes-shadow{
-    background-color: rgba(31,68,86,255); 
+    background-color: #ff5a66;
     height: 50px;
-    width: 300px;
+    width: 338px;
     position: absolute;
     left: 75px;
     top: -40px;
+    border-radius: 10px;
+    z-index: -1;
 }
 
 .footer-title{
@@ -35,15 +38,15 @@
     font-weight: 500;
 }
 
-.sub-footer{
-    height: 70px;
+.sub-footer p{
     background-color:#1a252f;
     color: white;
     text-align: center;
+    margin: 0;
+    padding: 8px 0;
+    font-size: 14px;
 }
-p{
-    text-align: center;
-}
+
 
 .footer-icon{
     height: 20px;
@@ -90,25 +93,26 @@ span{
     padding: 5px;
 }
 
-
 .follow-icon:hover {
-    background-color: rgba(31,68,86,255);
+    background-color: #ff5a66;
     color: white
+}
+
+.footer-horario{
+    padding: 0 110px;
 }
 
 @media  (max-width: 480px){
     .footer p{
-        padding: 10px 50px;
+        padding: 10px 40px;
         align-items: center;
+        font-size: 13px;
     }
     .footer h1{
         font-size: 20px;
     }
     .footer h6{
-        font-size: 15px ;
-    }
-    .footer p{
-        font-size: 11px;
+        font-size: 14px ;
     }
     .footer-redes{
         position: absolute;
@@ -117,25 +121,25 @@ span{
         color: rgba(31,68,86,255); 
         display: flex;
         align-items: center;
-        padding: 0 5px;
+        padding: 5px 5px;
         font-size: large;
+        border-radius: 1 0px;
     }
     .redes-shadow{
         height: 50px;
-        width: 290px;
-        left: 73px;
+        width: 282px;
+        left: 78px;
         top: -39px;
+        border-radius: 10px;
     }
     .footer-redes span{
         color: rgba(31,68,86,255); 
         font-size: 15px;
     }
-    .text-icon{
-        color: white;
-        text-align: end;
-        font-size: 12px;
-    }
     .follow-icon{
         height: 18px;
+    }
+    .sub-footer p{
+        font-size: 11px;
     }
 }

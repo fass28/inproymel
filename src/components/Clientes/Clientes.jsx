@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import { Autoplay,Pagination } from "swiper";
 
 
 import delta from "../../assets/imagenes/Clients-img/delta.jpg";
@@ -24,6 +24,10 @@ export const Clientes = () => {
     <section className="clientes" id="clients">
       <h1>Nuestros Clientes</h1>
       <Swiper
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
         slidesPerView={5}
         spaceBetween={80}
         loop={true}
@@ -31,7 +35,7 @@ export const Clientes = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        modules={[Autoplay,Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
