@@ -7,6 +7,7 @@ import {
   faInstagram,
   faTiktok,
   faWhatsapp,
+
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faCalendarDays,
@@ -14,6 +15,7 @@ import {
   faPeopleRoof,
   faThumbsUp,
   faTruckPickup,
+  faBullseye,
 } from "@fortawesome/free-solid-svg-icons";
 library.add(
   faSquareWhatsapp,
@@ -27,5 +29,6 @@ library.add(
   faClock,
   faThumbsUp,
   faTruckPickup,
-  faWhatsapp
+  faWhatsapp,
+  faBullseye
 );

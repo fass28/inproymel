@@ -2,6 +2,11 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import mision from "../../assets/imagenes/aboutUs-img/mision.svg";
+import vision from "../../assets/imagenes/aboutUs-img/vision.svg";
+import valores from "../../assets/imagenes/aboutUs-img/valores.svg";
+
+
 import "./AboutUs.css";
 
 export const AboutUs = () => {
@@ -9,7 +14,7 @@ export const AboutUs = () => {
     <section className="about-Us" id="aboutUs">
       <h1>¿Quienes somos?</h1>
 
-      <Container>
+      <Container className="contanier-box">
         <Row>
           <Col>
             <p>
@@ -22,13 +27,14 @@ export const AboutUs = () => {
         </Row>
         <Row>
           <Col xs={12} sm={4} className="card-item">
-            <div class="face face1">
-              <div class="content">
+            <div className="face face1">
+              <div className="content">
+                <img src={mision} alt="" className="aboutUs-icon" />
                 <h3>Mision</h3>
               </div>
             </div>
-            <div class="face face2">
-              <div class="content">
+            <div className="face face2">
+              <div className="content">
                 <p>
                   Ser una empresa que brinda servicio de excelencia en variedad
                   y calidad, ofreciendo soluciones prácticas, viables y
@@ -40,13 +46,14 @@ export const AboutUs = () => {
             </div>
           </Col>
           <Col xs={12} sm={4} className="card-item">
-            <div class="face face1">
-              <div class="content">
+            <div className="face face1">
+              <div className="content">
+                <img src={vision} alt="" className="aboutUs-icon"/>
                 <h3>Vision</h3>
               </div>
             </div>
-            <div class="face face2">
-              <div class="content">
+            <div className="face face2">
+              <div className="content">
                 <p>
                   Ser una empresa de servicios reconocida, como líder en el
                   mercado nacional en prestación de servicios eléctricos,
@@ -57,13 +64,14 @@ export const AboutUs = () => {
             </div>
           </Col>
           <Col xs={12} sm={4} className="card-item">
-            <div class="face face1">
-              <div class="content">
+            <div className="face face1">
+              <div className="content">
+                <img src={valores} alt="" className="aboutUs-icon" />
                 <h3>Valores</h3>
               </div>
             </div>
-            <div class="face face2">
-              <div class="content">
+            <div className="face face2">
+              <div className="content">
                 <ul className="valores">
                   <li>Ética</li>
                   <li>Pasión</li>
