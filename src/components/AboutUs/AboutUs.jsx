@@ -26,7 +26,7 @@ export const AboutUs = () => {
           </Col>
         </Row>
         <Row>
-          <Col xs={12} sm={4} className="card-item">
+          <Col xs={12} sm={12} lg={4} className="card-item">
             <div className="face face1">
               <div className="content">
                 <img src={mision} alt="" className="aboutUs-icon" />
@@ -45,7 +45,7 @@ export const AboutUs = () => {
               </div>
             </div>
           </Col>
-          <Col xs={12} sm={4} className="card-item">
+          <Col xs={12} sm={6} lg={4} className="card-item">
             <div className="face face1">
               <div className="content">
                 <img src={vision} alt="" className="aboutUs-icon"/>
@@ -63,7 +63,7 @@ export const AboutUs = () => {
               </div>
             </div>
           </Col>
-          <Col xs={12} sm={4} className="card-item">
+          <Col xs={12} sm={6} lg={4} className="card-item">
             <div className="face face1">
               <div className="content">
                 <img src={valores} alt="" className="aboutUs-icon" />

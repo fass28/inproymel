@@ -1,144 +1,147 @@
-.footer{
-    background-color: rgba(31,68,86,255); 
-    color: white;
-    position: relative;
+.footer {
+  background-color: rgba(31, 68, 86, 255);
+  color: white;
+  position: relative;
 }
 
-.footer-redes{
-    background-color: white;
+.footer-redes {
+  background-color: white;
+  position: absolute;
+  left: 90px;
+  top: -25px;
+  color: rgba(31, 68, 86, 255);
+  display: flex;
+  align-items: center;
+  padding: 5px 5px;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.redes-shadow {
+  background-color: #ff5a66;
+  height: 50px;
+  width: 338px;
+  position: absolute;
+  left: 75px;
+  top: -40px;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.footer-title {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.sub-footer p {
+  background-color: #1a252f;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.footer-icon {
+  height: 20px;
+  background-color: rgba(31, 68, 86, 255);
+  color: white;
+  padding: 10px;
+  margin-right: 10px;
+  text-align: end;
+}
+
+span {
+  color: rgb(212, 219, 13);
+}
+
+.footer-redes span {
+  color: rgba(31, 68, 86, 255);
+}
+
+.text-icon {
+  color: white;
+  text-align: center;
+}
+
+.footer-col {
+  align-items: center;
+}
+
+.follow-icon {
+  /* display: inline-block; */
+  /* text-decoration: none!important; */
+  height: 27px;
+  /* width: 20px; */
+  /* font-size: 30px; */
+  /* text-align: center; */
+  color: rgba(31, 68, 86, 255);
+  border: solid;
+  border-radius: 50%;
+  border-width: 2px;
+  margin: 0 5px;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.follow-icon:hover {
+  background-color: #ff5a66;
+  color: white;
+}
+
+.footer-horario {
+  padding: 0 110px;
+}
+
+@media (min-width: 480px) {
+  .footer p {
+    padding: 10px 30px;
+    align-items: center;
+    font-size: 13px;
+    text-align: right;
+  }
+
+  .footer-redes {
     position: absolute;
     left: 90px;
     top: -25px;
-    color: rgba(31,68,86,255); 
+    color: rgba(31, 68, 86, 255);
     display: flex;
     align-items: center;
     padding: 5px 5px;
     font-size: large;
-    border-radius: 10px;
-}
-
-.redes-shadow{
-    background-color: #ff5a66;
+    border-radius: 1 0px;
+  }
+  .redes-shadow {
     height: 50px;
-    width: 338px;
-    position: absolute;
-    left: 75px;
-    top: -40px;
+    width: 282px;
+    left: 78px;
+    top: -39px;
     border-radius: 10px;
-    z-index: -1;
+  }
+  .footer-redes span {
+    color: rgba(31, 68, 86, 255);
+    font-size: 15px;
+  }
+  .follow-icon {
+    height: 18px;
+  }
+  .sub-footer p {
+    font-size: 11px;
+    padding-top: 25px;
+  }
 }
 
-.footer-title{
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 30px;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    font-family: sans-serif;
-    font-weight: 500;
-}
-
-.sub-footer p{
-    background-color:#1a252f;
-    color: white;
-    text-align: center;
-    margin: 0;
-    padding: 8px 0;
-    font-size: 14px;
-}
-
-
-.footer-icon{
-    height: 20px;
-    background-color: rgba(31,68,86,255); 
-    color: white;
-    padding: 10px;
-    margin-right: 10px;
-    text-align: end;
-}
-
-
-span{
-    color: rgb(212, 219, 13);
-}
-
-.footer-redes span{
-    color: rgba(31,68,86,255);
-}
-
-.text-icon{
-    color: white;
-    text-align: center;
-}
-
-
-.footer-col{
-    align-items: center;
-}
-
-.follow-icon{
-    /* display: inline-block; */
-    /* text-decoration: none!important; */
-    height: 27px;
-    /* width: 20px; */
-    /* font-size: 30px; */
-    /* text-align: center; */
-    color: rgba(31,68,86,255);
-    border: solid;
-    border-radius: 50%;
-    border-width: 2px;
-    margin: 0 5px;
-    vertical-align: middle;
-    padding: 5px;
-}
-
-.follow-icon:hover {
-    background-color: #ff5a66;
-    color: white
-}
-
-.footer-horario{
-    padding: 0 110px;
-}
-
-@media  (max-width: 480px){
-    .footer p{
-        padding: 10px 40px;
-        align-items: center;
-        font-size: 13px;
-    }
-    .footer h1{
-        font-size: 20px;
-    }
-    .footer h6{
-        font-size: 14px ;
-    }
-    .footer-redes{
-        position: absolute;
-        left: 90px;
-        top: -25px;
-        color: rgba(31,68,86,255); 
-        display: flex;
-        align-items: center;
-        padding: 5px 5px;
-        font-size: large;
-        border-radius: 1 0px;
-    }
-    .redes-shadow{
-        height: 50px;
-        width: 282px;
-        left: 78px;
-        top: -39px;
-        border-radius: 10px;
-    }
-    .footer-redes span{
-        color: rgba(31,68,86,255); 
-        font-size: 15px;
-    }
-    .follow-icon{
-        height: 18px;
-    }
-    .sub-footer p{
-        font-size: 11px;
-    }
+@media (min-width: 768px) {
+  .footer-redes {
+    left: 30px;
+  }
+  .redes-shadow {
+    left: 18px;
+  }
 }

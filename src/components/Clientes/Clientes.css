@@ -20,11 +20,22 @@ height: 50px;
 margin-bottom: 60px;
 }
 
-@media  (max-width: 480px){
-  .clientes h1{
-    font-size: 20px;
-  }
+@media  (min-width: 480px){
   .swiper-slide .clientes-img {
     height: 25px;
+  }
+}
+
+@media  (min-width: 768px){
+
+  .swiper-slide .clientes-img {
+    height: 32px;
+  }
+}
+
+@media  (min-width: 992px){
+
+  .swiper-slide .clientes-img {
+    height: 50px;
   }
 }

@@ -40,12 +40,23 @@
     justify-content: flex-start;
 }
 
-@media  (max-width: 480px){
-    .services h1{
-        font-size: 20px;
-    }
+@media  (min-width: 480px){
     .col-img h6{
         font-size: 12px ;
+        text-align: right;
     }
+}
 
+@media  (min-width: 768px){
+    .col-img h6{
+        font-size: 15px ;
+        padding-left: 100px;
+        text-align: right;
+    }
+}
+
+@media  (min-width: 992px){
+    .col-img h6{
+        font-size: 19px ;
+    }
 }

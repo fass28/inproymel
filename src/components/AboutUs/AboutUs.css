@@ -85,6 +85,7 @@
 .card-item .face.face2 .content p {
   margin: 0;
   padding: 0;
+  font-size: 17px;
 }
 
 .card-item .face.face2 .content a:hover {
@@ -92,22 +93,8 @@
   color: #fff;
 }
 
-@media (max-width: 480px) {
-  .about-Us h1 {
-    font-size: 20px;
-  }
+@media (min-width: 480px) {
 
-  .about-Us h2 {
-    font-size: 18px;
-  }
-
-  .about-Us h3 {
-    font-size: 14px;
-  }
-
-  .about-Us p {
-    font-size: 11px;
-  }
   .about-Us li {
     font-size: 11px;
   }
@@ -121,3 +108,26 @@
     padding: 20px;
   }
 }
+
+@media (min-width: 768px) {
+
+  .about-Us li {
+    font-size: 14px;
+  }
+  .card-item .face {
+    padding: 50px 15px;
+    transition: 0.5s;
+  }
+  .card-item .face.face2 {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-item .face.face2 .content p {
+    font-size: 13px;
+  }
+}
+

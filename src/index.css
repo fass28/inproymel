@@ -83,7 +83,11 @@ h1{
     margin-bottom: 20px;
 }
 
-@media  (max-width: 480px){
+h1{
+  font-size: 60px;
+}
+
+@media  (min-width: 480px){
  h1{
   font-size: 25px;
  }
@@ -98,3 +102,33 @@ h1{
  }
 }
 
+@media  (min-width: 768px){
+  h1{
+   font-size: 32px;
+  }
+  h2{
+   font-size: 27px;
+  }
+  h3{
+   font-size: 19px;
+  }
+  p{
+   font-size: 17px;
+  }
+ }
+
+ @media  (min-width: 992px){
+  h1{
+   font-size: 40px;
+  }
+  h2{
+   font-size: 27px;
+  }
+  h3{
+   font-size: 24px;
+  }
+  p{
+   font-size: 20px;
+  }
+
+ }
