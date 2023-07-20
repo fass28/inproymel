@@ -22,34 +22,70 @@
   position: relative;
   z-index: 2;
   cursor: pointer;
- border-top-left-radius: 5%;
- border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  transform: translateY(0);
+  transition: 0.5s;
 }
 
 .face-1:hover {
   background-color: #ff0057;
 }
 
-.card-item:hover .face-1{
+.card-item:hover .face-1 {
   transform: translateY(-40px);
   transition: 0.5s;
 }
 
-.card-item:hover .face-2{
+.card-item:hover .face-2 {
   transform: translateY(105px);
   transition: 0.5s;
 }
-
 
 .face-2 {
   background-color: white;
   position: relative;
   top: -145px;
   z-index: 1;
+  transform: translateY(0);
+  transition: 0.5s;
 }
 
 .face-2 p,
 li {
   color: #333;
   font-size: 1.7;
+}
+
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+  .face-1{
+   padding: 50px;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+  }
+  .face-2{
+    top: -173px;
+  }
+  .card-item:hover .face-2 {
+    transform: translateY(133px);
+    transition: 0.5s;
+  }
+}
+@media (min-width: 992px) {
+  .face-1{
+    padding: 50px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+   }
+   .face-2{
+     top: -173px;
+   }
+   .content-2 p{
+    font-size: 1em;
+   }
+
+}
+@media (min-width: 1200px) {
 }

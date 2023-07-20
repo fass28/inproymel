@@ -110,6 +110,27 @@ h6.footer-title{
   font-size: 0.9em;
 }
 
+@media  (min-width: 480px){
+
+} 
+@media  (min-width: 576px){
+
+}  
+@media  (min-width: 768px){
+  h6.footer-title {
+    font-size: 1.1em;
+}
+  .footer-horario {
+    padding: 0;
+}
+}
+@media  (min-width: 992px){
+
+} 
+@media  (min-width: 1200px){
+
+} 
+
 /* @media (min-width: 480px) {
   .footer p {
     padding: 10px 30px;

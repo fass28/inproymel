@@ -25,6 +25,23 @@ h4.modal-title {
   background: transparent var(--variable) center/1em auto no-repeat;
 }
 
+
+@media (min-width: 576px) {
+  .services-img {
+    height: 290px;
+    width: 450px;
+  }
+  .modal-list {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+
+
 /* 
 @media  (min-width: 480px){
     .services-img{

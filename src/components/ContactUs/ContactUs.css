@@ -21,6 +21,22 @@ label{
   color:  rgba(31, 68, 86, 255);
 }
 
+@media  (min-width: 576px){
+  input[type="text"] {
+    font-size: 15px;
+  }
+  
+  input[type="email"] {
+    font-size: 17px;
+  }
+}  
+@media  (min-width: 992px){
+
+} 
+@media  (min-width: 1200px){
+
+} 
+
 /* @media (max-width: 480px) {
   p {
     font-size: 11px;

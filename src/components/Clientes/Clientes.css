@@ -17,10 +17,24 @@
 
 .clientes-img {
 height: 2.9em;
-margin-bottom: 60px;
-gap: 10px;
 width: 4.2em;
+margin-bottom: 50px;
 }
+
+@media  (min-width: 576px){
+  .clientes-img {
+    height: 5em;
+    width: 6.5em;
+    margin-bottom: 50px;
+    }
+}  
+@media  (min-width: 992px){
+
+} 
+@media  (min-width: 1200px){
+
+} 
+
 
 /* @media  (min-width: 480px){
   .swiper-slide .clientes-img {
