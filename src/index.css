@@ -1,7 +1,7 @@
 body {
   overflow: hidden;
   text-align: center;
-  font-family:Arial, Helvetica, sans-serif ;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #root {
@@ -12,115 +12,92 @@ body {
 
 /* Header */
 .large-header {
-	width: 100%;
-  background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
+  width: 100%;
+  background-image: url("https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg");
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
 }
 
 #large-header {
-	position: fixed;
-	left: 0;
-	right: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 
 .main-title {
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #f9f1e9;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
 }
 
-h1{
-  text-shadow: 0  1.4px white;
+.btn-primary {
+  --bs-btn-bg: rgba(31, 68, 86, 255);
 }
 
-
-
-@media only screen and (max-width : 768px) {
-	.demo-1 .main-title {
-		font-size: 3em;
-	}
+h1 {
+  color: #ff5a66;
+  padding: 25px 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-shadow: 0 1.4px white;
 }
 
-
-
- 
-@media only screen and (max-width : 768px) {
-	.demo-1 .main-title {
-		font-size: 3em;
-	}
+h3{
+  font-size: 22px;
 }
 
-
-@media only screen and (max-width : 768px) {
-	.demo-1 .main-title {
-		font-size: 3em;
-	}
+p{
+  font-size: 13px;
 }
 
-.btn-primary{
-    --bs-btn-bg: rgba(31,68,86,255);   
-}
-
-h1{
-    color:#ff5a66;
-    padding: 25px 0;
-    margin-bottom: 20px;
-}
-
-h1{
-  font-size: 60px;
-}
-
-@media  (min-width: 480px){
- h1{
-  font-size: 38px;
- }
- h2{
-  font-size: 20px;
- }
- h3{
-  font-size: 15px;
- }
- p{
-  font-size: 14px;
- }
-}
-
-@media  (min-width: 768px){
-  h1{
-   font-size: 32px;
+@media (min-width: 480px) {
+  h1 {
+    font-size: 38px;
   }
-  h2{
-   font-size: 27px;
+  h2 {
+    font-size: 20px;
   }
-  h3{
-   font-size: 19px;
+  h3 {
+    font-size: 15px;
   }
-  p{
-   font-size: 17px;
+  p {
+    font-size: 14px;
   }
- }
+}
 
- @media  (min-width: 992px){
-  h1{
-   font-size: 40px;
+@media (min-width: 768px) {
+  h1 {
+    font-size: 32px;
   }
-  h2{
-   font-size: 27px;
+  h2 {
+    font-size: 27px;
   }
-  h3{
-   font-size: 24px;
+  h3 {
+    font-size: 19px;
   }
-  p{
-   font-size: 20px;
+  p {
+    font-size: 17px;
   }
+}
 
- }
+@media (min-width: 992px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
