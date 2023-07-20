@@ -1,5 +1,5 @@
 .modal-header {
-  background-color: rgba(31, 68, 86, 255);
+  background-color: var(--tercero);
   color: white;
 
 }
@@ -25,6 +25,9 @@ h4.modal-title {
   background: transparent var(--variable) center/1em auto no-repeat;
 }
 
+.btn-primary {
+  --bs-btn-bg: var(--tercero)
+}
 
 @media (min-width: 576px) {
   .services-img {
@@ -41,12 +44,18 @@ h4.modal-title {
     height: 350px;
     width: 615px;
   }
+  .h4.modal-title{
+    margin-bottom: 0;
+  }
   .modal-list {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
 }
 @media (min-width: 1200px) {
+  .h4.modal-title{
+    margin-bottom: 0;
+  }
 }
 
 

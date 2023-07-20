@@ -32,7 +32,7 @@
 }
 
 .face-1:hover {
-  background-color: #ff0057;
+  background-color: var(--tercero);
 }
 
  .face-1:hover {
@@ -47,7 +47,7 @@
 }
 
 .face-2 {
-  background-color: white;
+  background-color:white;
   position: relative;
   top: -145px;
   z-index: 1;
@@ -57,7 +57,7 @@
 
 .face-2 p,
 li {
-  color: #333;
+  color: black;
   font-size: 1.7;
 }
 

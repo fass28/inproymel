@@ -1,7 +1,9 @@
 /* variables */
 :root{
   --principal:  rgba(31,68,86,255)  ;
-  --secundario: #ff5a66
+  --secundario: #ff5a66 ;
+  --tercero: #007cc7;
+  --cuarto: #12232E;
 }
 
 /* reset */
