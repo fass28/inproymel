@@ -1,15 +1,14 @@
 .services{
     text-align: center;
-    padding: 50px 0;
+    padding: 30px 0;
 
 }
 
 
-
 .col-img{
     background-color: rgba(31,68,86,255);
-    padding: 45px 0;
-    margin: 10px;
+    padding: 85px 7px;
+    margin: 10px 0;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -30,20 +29,20 @@
 .col-img h6{
     position: absolute;
     right:  20px;
+    font-size: 26px;
 }
 
 
 .icon-img{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(152deg) brightness(106%) contrast(102%);
-    margin-right: 40px;
-    height: 45px;
-    justify-content: flex-start;
+    height: 65px;
 }
 
 @media  (min-width: 480px){
     .col-img h6{
-        font-size: 12px ;
-        text-align: right;
+        font-size: 23px;
+        padding-left: 120px;
+        text-align: end;
     }
 }
 
@@ -57,6 +56,6 @@
 
 @media  (min-width: 992px){
     .col-img h6{
-        font-size: 19px ;
+        font-size: 24px ;
     }
 }

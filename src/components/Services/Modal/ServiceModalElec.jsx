@@ -16,7 +16,7 @@ export const ServiceModalElec = ({ showModal, onHide }) => {
     >
       <Modal.Header closeButton className="modal-Header">
         <Modal.Title id="contained-modal-title-vcenter">
-          Electricidad Industrial & Domestica
+          Electricidad Industrial & Comercial
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>

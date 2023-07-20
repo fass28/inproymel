@@ -173,7 +173,7 @@
         ctx.beginPath();
         ctx.moveTo(p.x, p.y);
         ctx.lineTo(p.closest[i].x, p.closest[i].y);
-        ctx.strokeStyle = "rgba(216, 15, 99 ," + p.active + ")";
+        ctx.strokeStyle = "rgba(255,255,255," + p.active + ")";
         ctx.stroke();
       }
     }

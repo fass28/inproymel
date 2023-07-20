@@ -1,5 +1,7 @@
 body {
   overflow: hidden;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif ;
 }
 
 #root {
@@ -11,7 +13,7 @@ body {
 /* Header */
 .large-header {
 	width: 100%;
-	background: #b8a9a9;
+  background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
@@ -35,7 +37,9 @@ body {
 	transform: translate3d(-50%,-50%,0);
 }
 
-
+h1{
+  text-shadow: 0  1.4px white;
+}
 
 
 
@@ -77,7 +81,7 @@ h1{
 
 @media  (min-width: 480px){
  h1{
-  font-size: 25px;
+  font-size: 38px;
  }
  h2{
   font-size: 20px;

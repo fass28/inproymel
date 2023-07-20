@@ -1,16 +1,12 @@
 .clientes {
   text-align: center;
-  padding: 45px 0;
+  padding: 10px 0;
   background-color: white;
+  margin-top: 80px;
 }
 
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-
-
-  /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,6 +33,6 @@ margin-bottom: 60px;
 @media  (min-width: 992px){
 
   .swiper-slide .clientes-img {
-    height: 50px;
+    height: 80px;
   }
 }

@@ -97,7 +97,7 @@ export const Services = () => {
                 alt="electricalSVG ICON"
                 className="icon-img"
               />
-              <h6> Electricidad Industrial y Domestica</h6>
+              <h6> Electricidad Industrial y Comercial</h6>
             </div>
           </Col>
           <Col xs={12} lg={4} md={6} onClick={modalMech}>
