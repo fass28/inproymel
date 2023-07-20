@@ -4,7 +4,7 @@ import "./WhatsApp.css";
 
 export const WhatsApp = () => {
   return (
-    <section >
+    <section className="whatsapp-box">
         <div className="whatsapp-text">
             <strong>Contáctanos !</strong>
         </div>
