@@ -14,6 +14,11 @@
   padding:  0 13px;
 }
 
+.whatsapp-text {
+  opacity: 0;
+}
+
+
 #whatsapp {
   background-color: #22c15e;
   height: 50px;
@@ -22,7 +27,6 @@
   right: 5px;
   bottom: 10px;
   z-index: 99;
-  border-radius: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,7 +62,7 @@
   color: white;
 }
 
-@media (min-width: 480px) {
+/* @media (min-width: 480px) {
   .whatsapp-text {
     opacity: 0;
   }
@@ -81,3 +85,4 @@
     margin: 0
   }
 }
+ */

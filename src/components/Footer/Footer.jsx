@@ -16,42 +16,47 @@ export const Footer = () => {
       <section className="footer" id="footer">
         <div className="redes-shadow"></div>
         <div className="footer-redes">
-          <span>
-            <strong>Siguenos en:</strong>
-          </span>
-          <a
-            href="https://www.facebook.com/profile.php?id=100094046366328&mibextid=ZbWKwL"
-            target="_blank"
-            id="icon"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "facebook"]}
-              className="follow-icon"
-            />{" "}
-          </a>
-          <a
-            href="https://www.linkedin.com/in/inproymel-inproymel-206176227/"
-            target="_blank"
-            id="icon"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "linkedin"]}
-              className="follow-icon"
-            />{" "}
-          </a>
-          <a href="" id="icon">
-            <FontAwesomeIcon icon={["fab", "tiktok"]} className="follow-icon" />{" "}
-          </a>
-          <a
-            href="https://instagram.com/inproymel.sac?igshid=MzNlNGNkZWQ4Mg=="
-            target="_blank"
-            id="icon"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "instagram"]}
-              className="follow-icon"
-            />{" "}
-          </a>
+          <div className="redes-content">
+            <span>
+              <strong>Siguenos en:</strong>
+            </span>
+            <a
+              href="https://www.facebook.com/profile.php?id=100094046366328&mibextid=ZbWKwL"
+              target="_blank"
+              id="icon"
+            >
+              <FontAwesomeIcon
+                icon={["fab", "facebook"]}
+                className="follow-icon"
+              />{" "}
+            </a>
+            <a
+              href="https://www.linkedin.com/in/inproymel-inproymel-206176227/"
+              target="_blank"
+              id="icon"
+            >
+              <FontAwesomeIcon
+                icon={["fab", "linkedin"]}
+                className="follow-icon"
+              />{" "}
+            </a>
+            <a href="" id="icon">
+              <FontAwesomeIcon
+                icon={["fab", "tiktok"]}
+                className="follow-icon"
+              />{" "}
+            </a>
+            <a
+              href="https://instagram.com/inproymel.sac?igshid=MzNlNGNkZWQ4Mg=="
+              target="_blank"
+              id="icon"
+            >
+              <FontAwesomeIcon
+                icon={["fab", "instagram"]}
+                className="follow-icon"
+              />{" "}
+            </a>
+          </div>
         </div>
         <Container>
           <Row>
@@ -113,7 +118,9 @@ export const Footer = () => {
       </section>
       <section className="sub-footer">
         <p>
-          Copyrigth <span>© Inproymel</span> Website 2023
+          Copyrigth
+          <span>© Inproymel</span>
+          Website 2023
           <br />
           *Todos los derechos reservados*
         </p>

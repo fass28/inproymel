@@ -81,7 +81,7 @@ export const Services = () => {
       <Container>
         <Row>
           <Col xs={12} lg={4} md={6} onClick={modalAuto}>
-            <div className="col-img">
+            <div className="col-services">
               <img
                 src={automation_svg}
                 alt="AutomationSVG ICON"
@@ -91,7 +91,7 @@ export const Services = () => {
             </div>
           </Col>
           <Col xs={12} lg={4} md={6} onClick={modalElec}>
-            <div className="col-img">
+            <div className="col-services">
               <img
                 src={electrical_svg}
                 alt="electricalSVG ICON"
@@ -101,7 +101,7 @@ export const Services = () => {
             </div>
           </Col>
           <Col xs={12} lg={4} md={6} onClick={modalMech}>
-            <div className="col-img">
+            <div className="col-services">
               <img
                 src={mechanical_svg}
                 alt="mechanicalSVG ICON"
@@ -112,19 +112,19 @@ export const Services = () => {
           </Col>
 
           <Col xs={12} lg={4} md={6} onClick={modalReefer}>
-            <div className="col-img">
+            <div className="col-services">
               <img src={reefer_svg} alt="reeferSVG ICON" className="icon-img" />
               <h6> Asistencia de contenedores refrigerados</h6>
             </div>
           </Col>
           <Col xs={12} lg={4} md={6} onClick={modalAc}>
-            <div className="col-img">
+            <div className="col-services">
               <img src={ac_svg} alt="acSVG ICON" className="icon-img" />
               <h6>Aire Acondicionado</h6>
             </div>
           </Col>
           <Col xs={12} lg={4} md={6} onClick={modalDrywall}>
-            <div className="col-img">
+            <div className="col-services">
               <img
                 src={drywall_svg}
                 alt="drywallSVG ICON"

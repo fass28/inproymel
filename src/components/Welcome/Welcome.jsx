@@ -26,7 +26,7 @@ export const Welcome = () => {
     <section className="welcome" id="welcome">
       <div className="welcome-text">
         <h1>Bienvenido</h1>
-        <h3>¿Buscando algún Servicio?</h3>
+        <h2>¿Buscando algún Servicio?</h2>
         <p>
           En Inproymel estamos para ayudarte y
           <br />

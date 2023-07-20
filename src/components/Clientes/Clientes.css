@@ -5,6 +5,9 @@
   margin-top: 80px;
 }
 
+.clientes h1{
+  color: black;
+}
 
 .swiper-slide {
   display: flex;
@@ -12,12 +15,14 @@
   align-items: center;
 }
 
-.swiper-slide .clientes-img {
-height: 50px;
+.clientes-img {
+height: 2.9em;
 margin-bottom: 60px;
+gap: 10px;
+width: 4.2em;
 }
 
-@media  (min-width: 480px){
+/* @media  (min-width: 480px){
   .swiper-slide .clientes-img {
     height: 25px;
   }
@@ -35,4 +40,4 @@ margin-bottom: 60px;
   .swiper-slide .clientes-img {
     height: 80px;
   }
-}
+} */

@@ -20,7 +20,7 @@ export const ServiceModalReefer = ({ showModal, onHide }) => {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Servicios</h4>
+        <h4 className="modal-title">Servicios</h4>
 
         <ul className="modal-list">
           <li>Reparación y mantenimiento de equipos de refigeración.</li>

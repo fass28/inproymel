@@ -10,7 +10,7 @@ import "./AboutUs.css";
 
 export const AboutUs = () => {
   return (
-    <section className="about-Us" id="aboutUs">
+    <section className="about-us" id="aboutUs">
       <h1>¿Quienes somos?</h1>
 
       <Container className="contanier-box">
@@ -42,7 +42,7 @@ export const AboutUs = () => {
               </div>
             </div>
           </Col>
-          <Col xs={12} md={6} lg={4} xl={4} xxl={4} className="card-item">
+          <Col  xs={12} md={6} lg={4} xl={4} xxl={4} className="card-item">
             <div className="face-1">
               <div className="content-1">
                 <img src={vision} alt="" className="aboutUs-icon" />
@@ -60,7 +60,7 @@ export const AboutUs = () => {
               </div>
             </div>
           </Col>
-          <Col xs={12} md={6} lg={4} xl={4} xxl={4} className="card-item">
+          <Col  xs={12} md={6} lg={4} xl={4} xxl={4} className="card-item">
             <div className="face-1">
               <div className="content-1">
                 <img src={valores} alt="" className="aboutUs-icon" />

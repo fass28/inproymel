@@ -20,7 +20,7 @@ export const ServiceModalMech = ({ showModal, onHide }) => {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Servicios</h4>
+        <h4 className="modal-title">Servicios</h4>
 
         <ul className="modal-list">
           <li>Mantenimiento de Motoreductores.</li>

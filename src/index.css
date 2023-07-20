@@ -1,3 +1,38 @@
+/* variables */
+:root{
+  --principal:  rgba(31,68,86,255)  ;
+  --secundario: #ff5a66
+}
+
+/* reset */
+body,p,a,ul{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/* base styles */
+
+h1 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 2.2em;
+}
+h2{
+  font-size: 1.2em;
+}
+h3,h4{
+  font-size: 1.7em;
+}
+p{
+  font-size:  1em
+}
+
+
+
 body {
   overflow: hidden;
   text-align: center;
@@ -41,63 +76,16 @@ body {
   --bs-btn-bg: rgba(31, 68, 86, 255);
 }
 
-h1 {
-  color: #ff5a66;
-  padding: 25px 0;
-  margin-bottom: 20px;
-  font-size: 30px;
-  text-shadow: 0 1.4px white;
-}
 
-h3{
-  font-size: 22px;
-}
-
-p{
-  font-size: 13px;
-}
 
 @media (min-width: 480px) {
-  h1 {
-    font-size: 38px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 15px;
-  }
-  p {
-    font-size: 14px;
-  }
+
 }
 
 @media (min-width: 768px) {
-  h1 {
-    font-size: 32px;
-  }
-  h2 {
-    font-size: 27px;
-  }
-  h3 {
-    font-size: 19px;
-  }
-  p {
-    font-size: 17px;
-  }
+
 }
 
 @media (min-width: 992px) {
-  h1 {
-    font-size: 40px;
-  }
-  h2 {
-    font-size: 27px;
-  }
-  h3 {
-    font-size: 24px;
-  }
-  p {
-    font-size: 20px;
-  }
+
 }

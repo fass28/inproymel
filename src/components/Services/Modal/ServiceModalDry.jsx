@@ -20,7 +20,7 @@ export const ServiceModalDry = ({ showModal, onHide }) => {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Servicios</h4>
+        <h4 className="modal-title">Servicios</h4>
 
         <ul className="modal-list">
           <li>Diseño de oficinas con separaciones drywall y cielo raso</li>

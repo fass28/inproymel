@@ -1,8 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Autoplay,Pagination } from "swiper";
-
+import { Autoplay, Pagination } from "swiper";
 
 import delta from "../../assets/imagenes/Clients-img/delta.jpg";
 import durabilis from "../../assets/imagenes/Clients-img/durabilis.jpg";
@@ -24,10 +23,10 @@ export const Clientes = () => {
     <section className="clientes" id="clients">
       <h1>Nuestros Clientes</h1>
       <Swiper
-      autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
-      }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         slidesPerView={5}
         spaceBetween={80}
         loop={true}
@@ -35,14 +34,14 @@ export const Clientes = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Autoplay,Pagination]}
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
           <img className="clientes-img" src={bakels} alt="bakels JPG" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="clientes-img" src={chocolate} alt="chocolate JPG" />
+          <img className="clientes-img" src={durabilis} alt="durabilis JPG" />
         </SwiperSlide>
         <SwiperSlide>
           <img className="clientes-img" src={courty_marriot} alt="courty_marriot JPG"
@@ -52,10 +51,10 @@ export const Clientes = () => {
           <img className="clientes-img" src={delta} alt="delta JPG" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="clientes-img" src={durabilis} alt="durabilis JPG" />
+          <img className="clientes-img" src={chocolate} alt="chocolate JPG" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="clientes-img" src={ecolab} alt="ecolab JPG" />
+          <img className="clientes-img" src={teknomeal} alt="teknomeal JPG" />
         </SwiperSlide>
         <SwiperSlide>
           <img className="clientes-img" src={etna} alt="Etna JPG" />
@@ -73,7 +72,7 @@ export const Clientes = () => {
           <img className="clientes-img" src={marriot} alt="marriot JPG" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="clientes-img" src={teknomeal} alt="teknomeal JPG" />
+          <img className="clientes-img" src={ecolab} alt="ecolab JPG" />
         </SwiperSlide>
       </Swiper>
     </section>

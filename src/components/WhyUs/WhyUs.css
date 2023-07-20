@@ -1,18 +1,17 @@
 .whyUs{
-    text-align: center;
-    padding: 90px 0;
+    padding: 90px 0 0;
 }
 
 .whyUs h2{
-font-size: 35px;
 color: rgba(31,68,86,255);;
 background-color: white;
 padding: 10px 0;
 border-bottom-left-radius: 30px;
+margin-bottom: 20px;
 }
 
 .whyUs p{
-    color: white;
+    margin-bottom: 30px;
 }
 
 .why-icon{
@@ -21,7 +20,7 @@ border-bottom-left-radius: 30px;
     font-size: 31px;
 }
 
-@media  (min-width: 480px){
+/* @media  (min-width: 480px){
 
     .whyUs h2{
         font-size: 18px;
@@ -46,4 +45,4 @@ border-bottom-left-radius: 30px;
     .whyUs p{
         font-size: 17px ;
     }
-}
+} */
