@@ -5,6 +5,9 @@
   margin-bottom: 50px;
 }
 
+.about-us h3{
+  padding-top: 10px;
+}
 .aboutUs-icon {
   height: 1.8em;
 }
@@ -32,12 +35,13 @@
   background-color: #ff0057;
 }
 
-.card-item:hover .face-1 {
+ .face-1:hover {
   transform: translateY(-40px);
   transition: 0.5s;
+ 
 }
 
-.card-item:hover .face-2 {
+.face-1:hover + .face-2{
   transform: translateY(105px);
   transition: 0.5s;
 }
@@ -68,10 +72,12 @@ li {
   .face-2{
     top: -173px;
   }
-  .card-item:hover .face-2 {
+ 
+  .face-1:hover + .face-2{
     transform: translateY(133px);
     transition: 0.5s;
   }
+
 }
 @media (min-width: 992px) {
   .face-1{
@@ -88,4 +94,17 @@ li {
 
 }
 @media (min-width: 1200px) {
+  .face-1{
+    padding: 34px 0 30px 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+   }
+   .face-2{
+     top: -144px;
+   }
+   .face-1:hover + .face-2{
+    transform: translateY(103px);
+    transition: 0.5s;
+  }
 }
+

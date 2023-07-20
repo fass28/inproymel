@@ -125,6 +125,13 @@ h6.footer-title{
 }
 }
 @media  (min-width: 992px){
+  .footer-redes {
+
+    display: flex;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+  }
 
 } 
 @media  (min-width: 1200px){

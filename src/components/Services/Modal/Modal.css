@@ -37,6 +37,14 @@ h4.modal-title {
 }
 }
 @media (min-width: 992px) {
+  .services-img {
+    height: 350px;
+    width: 615px;
+  }
+  .modal-list {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
 }
 @media (min-width: 1200px) {
 }

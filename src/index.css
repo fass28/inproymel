@@ -75,6 +75,12 @@ body {
   --bs-btn-bg: rgba(31, 68, 86, 255);
 }
 
+:target::before {
+  content: "";
+  display: block;
+  height: 60px; /* fixed header height*/
+  margin: 0px 0 0; /* negative fixed header height */
+}
 
  
 @media  (min-width: 576px){
