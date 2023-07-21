@@ -1,38 +1,40 @@
 /* variables */
-:root{
-  --principal:  rgba(31,68,86,255)  ;
-  --secundario: #ff5a66 ;
+:root {
+  --principal: rgba(31, 68, 86, 255);
+  --secundario: #ff5a66;
   --tercero: #007cc7;
-  --cuarto: #12232E;
+  --cuarto: #12232e;
 }
 
 /* reset */
-body,p,a,ul{
+body,
+p,
+a,
+ul {
   margin: 0;
   padding: 0;
   text-decoration: none;
   color: white;
 }
 
-
 /* base styles */
+
 
 h1 {
   color: white;
   margin-bottom: 40px;
   font-size: 2.2em;
 }
-h2{
+h2 {
   font-size: 1.2em;
 }
-h3,h4{
+h3,
+h4 {
   font-size: 1.7em;
 }
-p{
-  font-size:  1em
+p {
+  font-size: 1em;
 }
-
-
 
 body {
   overflow: hidden;
@@ -84,28 +86,25 @@ body {
   margin: 0px 0 0; /* negative fixed header height */
 }
 
- 
-@media  (min-width: 576px){
+@media (min-width: 576px) {
   h1 {
     font-size: 2.4em;
   }
-  h2{
+  h2 {
     font-size: 1.4em;
   }
-  h3,h4{
+  h3,
+  h4 {
     font-size: 1.9em;
   }
-  p{
-    font-size:  1.2em
+  p {
+    font-size: 1.2em;
   }
-}  
-@media  (min-width: 768px){
+}
+@media (min-width: 768px) {
+}
 
-} 
-
-@media  (min-width: 992px){
-
-} 
-@media  (min-width: 1200px){
-
-} 
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}

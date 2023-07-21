@@ -5,6 +5,30 @@
     z-index: 200;
 }
 
+.logo{
+    height: 50px;
+    display: inline;
+    margin-right: 13px;
+}
+
+@font-face {
+    font-family: 'bernard' ;
+    src: url(../../assets/fonts/bernard-mt-condensed/BernardMTCondensed.ttf);
+}
+
+.logo-section{
+    display: flex;
+    align-items:center
+}
+
+.logo-section h1{
+    color: white;
+    font-size: 30px;
+    display: inline;
+    font-family: 'bernard';
+    margin-bottom: 0;
+}
+
 nav{
     background-color: #12232E
 }
