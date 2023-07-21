@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import logo from "../../assets/imagenes/icon/logo-1.png";
+import logo from "../../assets/imagenes/icon/Logo-1.png";
 
 export const NavBar = () => {
   return (
