@@ -52,7 +52,14 @@ export const Services = () => {
 
   return (
     <section className="services" id="services">
-      <h1>Nuestros Servicios</h1>
+      <div className="title-h1">
+        <h1>Nuestros Servicios</h1>
+        <div className="line-h1">
+          <hr />
+          <span>Ω</span>
+          <hr />
+        </div>
+      </div>
       <ServiceModalAuto
         showModal={modalShowAuto}
         onHide={() => setModalShowAuto(false)}

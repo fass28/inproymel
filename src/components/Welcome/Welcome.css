@@ -89,12 +89,34 @@
   z-index: 99;
 }
 
-@media (min-width: 390px) {
+@media (max-width: 400px) {
   .welcome-text {
     width: 270px;
     margin-left: -10;
     padding: 0;
   }
+  .before {
+    background: linear-gradient(
+      90deg,
+      #202125 0,
+      rgba(31, 68, 86, 0.6) 18%,
+      rgba(32, 33, 37, 0) 31%,
+      rgba(32, 33, 37, 0) 92%,
+      #202125 100%
+    );
+  }
+  
+  .after {
+    background: linear-gradient(
+      90deg,
+      #202125 0,
+      rgba(31, 68, 86, 0.6) 18%,
+      rgba(32, 33, 37, 0) 31%,
+      rgba(32, 33, 37, 0) 92%,
+      #202125 100%
+    );
+  }
+  
 }
 
 @media (min-width: 576px) {

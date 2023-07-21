@@ -29,6 +29,7 @@
   border-top-right-radius: 5%;
   transform: translateY(0);
   transition: 0.5s;
+  box-shadow: 0 20px 50px rgb(219, 208, 208,0.5);
 }
 
 .face-1:hover {
@@ -53,6 +54,7 @@
   z-index: 1;
   transform: translateY(0);
   transition: 0.5s;
+
 }
 
 .face-2 p,

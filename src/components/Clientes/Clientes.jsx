@@ -22,6 +22,11 @@ export const Clientes = () => {
   return (
     <section className="clientes" id="clients">
       <h1>Nuestros Clientes</h1>
+      <div className="line-h1">
+          <hr />
+          <span></span>
+          <hr />
+        </div>
       <Swiper
         autoplay={{
           delay: 2500,

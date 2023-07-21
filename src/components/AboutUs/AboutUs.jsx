@@ -11,7 +11,14 @@ import "./AboutUs.css";
 export const AboutUs = () => {
   return (
     <section className="about-us" id="aboutUs">
-      <h1>¿Quienes somos?</h1>
+      <div className="title-h1">
+        <h1>¿Quienes somos?</h1>
+        <div className="line-h1">
+          <hr />
+          <span>Ω</span>
+          <hr />
+        </div>
+      </div>
 
       <Container className="contanier-box">
         <div>
@@ -42,7 +49,7 @@ export const AboutUs = () => {
               </div>
             </div>
           </Col>
-          <Col  xs={12} md={6} lg={4} xl={4} xxl={4} className="card-item">
+          <Col xs={12} md={6} lg={4} xl={4} xxl={4} className="card-item">
             <div className="face-1">
               <div className="content-1">
                 <img src={vision} alt="" className="aboutUs-icon" />
@@ -60,7 +67,7 @@ export const AboutUs = () => {
               </div>
             </div>
           </Col>
-          <Col  xs={12} md={6} lg={4} xl={4} xxl={4} className="card-item">
+          <Col xs={12} md={6} lg={4} xl={4} xxl={4} className="card-item">
             <div className="face-1">
               <div className="content-1">
                 <img src={valores} alt="" className="aboutUs-icon" />

@@ -8,10 +8,17 @@ import "./WhyUs.css";
 export const WhyUs = () => {
   return (
     <section className="whyUs" id="whyUs">
-      <h1>¿Por qué Elegirnos?</h1>
+      <div className="title-h1">
+        <h1>¿Por qué Elegirnos?</h1>
+        <div className="line-h1">
+          <hr />
+          <span>Ω</span>
+          <hr />
+        </div>
+      </div>
       <Container>
         <Row>
-          <Col xs={12}  sm={6} lg={3} >
+          <Col xs={12} sm={6} lg={3}>
             <h2>
               <span className="why-icon">
                 <FontAwesomeIcon icon="fa-solid fa-people-roof" />
@@ -19,10 +26,11 @@ export const WhyUs = () => {
               Capacidad
             </h2>
             <p>
-                Porque nuestros colaboradores son técnicos profesionales capacitados y certificados en el área de industrial.
+              Porque nuestros colaboradores son técnicos profesionales
+              capacitados y certificados en el área de industrial.
             </p>
           </Col>
-          <Col xs={12}  sm={6} lg={3}  >
+          <Col xs={12} sm={6} lg={3}>
             <h2>
               <span className="why-icon">
                 <FontAwesomeIcon icon="fa-solid fa-calendar-days" />
@@ -30,21 +38,24 @@ export const WhyUs = () => {
               Experiencia
             </h2>
             <p>
-                Porque nuestros técnicos suman más de 10 años de experiencia en el ámbito profesional con certificaciones.
+              Porque nuestros técnicos suman más de 10 años de experiencia en el
+              ámbito profesional con certificaciones.
             </p>
           </Col>
-          <Col xs={12}  sm={6} lg={3}  >
+          <Col xs={12} sm={6} lg={3}>
             <h2>
               <span className="why-icon">
-              <FontAwesomeIcon icon="fa-solid fa-truck-pickup" />
+                <FontAwesomeIcon icon="fa-solid fa-truck-pickup" />
               </span>
               Disponibilidad
             </h2>
             <p>
-                Porque sabemos lo importante que es  una rápida respuesta hacia nuestros clientes, por ello trabajamos los 7 dias dias a la semana y tambien feriados.
+              Porque sabemos lo importante que es una rápida respuesta hacia
+              nuestros clientes, por ello trabajamos los 7 dias dias a la semana
+              y tambien feriados.
             </p>
           </Col>
-          <Col xs={12}  sm={6} lg={3}  >
+          <Col xs={12} sm={6} lg={3}>
             <h2>
               <span className="why-icon">
                 <FontAwesomeIcon icon="fa-solid fa-thumbs-up" />
@@ -52,7 +63,9 @@ export const WhyUs = () => {
               Fiabilidad
             </h2>
             <p>
-                Porque realizamos mas de 100 trabajos al mes con distinton clientes y en diferentes rubros, tanto industrial como residencial.
+              Porque realizamos mas de 100 trabajos al mes con distinton
+              clientes y en diferentes rubros, tanto industrial como
+              residencial.
             </p>
           </Col>
         </Row>

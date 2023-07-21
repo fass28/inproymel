@@ -10,7 +10,7 @@
 }
 
 .col-services {
-  background-color: #1f4456;
+  background-color: rgb(31, 68, 86);
   padding: 72px 7px;
   margin: 10px 0;
   color: #fff;
@@ -24,7 +24,7 @@
 }
 
 .col-services:hover{
-  opacity: 0.6;
+  background-color: rgb(31, 68, 86,0.6);
 }
 
 .col-services img {

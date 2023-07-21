@@ -16,7 +16,14 @@ import "./ContactUs.css";
 export const ContactUs = () => {
   return (
     <section className="contactUs" id="contactUs">
-      <h1>Contáctanos</h1>
+      <div className="title-h1">
+        <h1>Contáctanos</h1>
+        <div className="line-h1">
+          <hr />
+          <span>Ω</span>
+          <hr />
+        </div>
+      </div>
       <Container>
         <Row>
           <Col xs={12}>

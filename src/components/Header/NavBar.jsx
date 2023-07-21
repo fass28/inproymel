@@ -9,7 +9,7 @@ export const NavBar = () => {
     <nav>
       <Navbar collapseOnSelect expand="lg" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#welcome">
             <div className="logo-section">
               <span>
                 <img src={logo} alt="" className="logo" />
