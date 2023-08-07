@@ -12,6 +12,7 @@ import img_2 from "../../assets/imagenes/welcome-img/img-2.avif";
 import img_6 from "../../assets/imagenes/welcome-img/img-6.webp";
 import img_7 from "../../assets/imagenes/welcome-img/img-7.avif";
 import img_9 from "../../assets/imagenes/welcome-img/img-9.jpg";
+import img_5 from "../../assets/imagenes/welcome-img/img-5.avif";
 import img_10 from "../../assets/imagenes/welcome-img/img-10.jpg";
 import img_12 from "../../assets/imagenes/welcome-img/img-12.jpg";
 import img_13 from "../../assets/imagenes/welcome-img/img-13.jpg";
@@ -62,6 +63,9 @@ export const Welcome = () => {
         </SwiperSlide>
         <SwiperSlide className="slide-img">
           <img src={img_12} alt="" className="welcome-img" />
+        </SwiperSlide>
+        <SwiperSlide className="slide-img">
+          <img src={img_5} alt="" className="welcome-img" />
         </SwiperSlide>
         <SwiperSlide className="slide-img">
           <img src={img_13} alt="" className="welcome-img" />
