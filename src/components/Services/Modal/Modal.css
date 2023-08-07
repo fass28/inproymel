@@ -29,6 +29,26 @@ h4.modal-title {
   --bs-btn-bg: var(--tercero)
 }
 
+.img-modal .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img-modal .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide  {
+  display: block;
+  width: 100%;
+}
+
+
+
 @media (min-width: 576px) {
   .services-img {
     height: 290px;

@@ -1,7 +1,21 @@
+import React, { useRef, useState } from "react";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import { EffectCoverflow, Pagination } from "swiper";
+
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
 import automation from "../../../assets/imagenes/services-img/automation.jpg";
+import auto_1 from "../../../assets/imagenes/services-img/auto-1.jpg";
+import auto_2 from "../../../assets/imagenes/services-img/auto-2.jpg";
+import auto_3 from "../../../assets/imagenes/services-img/auto-3.jpg";
+import auto_4 from "../../../assets/imagenes/services-img/auto-4.jpg";
+import auto_5 from "../../../assets/imagenes/services-img/auto-5.jpg";
+import auto_6 from "../../../assets/imagenes/services-img/auto-6.jpg";
 
 import "./Modal.css";
 
@@ -35,8 +49,74 @@ export const ServiceModalAuto = ({ showModal, onHide }) => {
           <li>Configuración de Instrumentos industriales</li>
           <li>Configuración de redes de telecomunicacion</li>
         </ul>
-
-        <img src={automation} alt="Automation ICON" className="services-img" />
+        <div className="img-modal">
+          <Swiper
+            effect={"coverflow"}
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={"auto"}
+            coverflowEffect={{
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            }}
+            pagination={true}
+            modules={[EffectCoverflow, Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <img
+                src={automation}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={auto_1}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={auto_2}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={auto_3}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={auto_4}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={auto_5}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={auto_6}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={onHide}>Cerrar</Button>
