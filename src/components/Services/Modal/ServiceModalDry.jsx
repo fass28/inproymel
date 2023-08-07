@@ -45,7 +45,7 @@ export const ServiceModalDry = ({ showModal, onHide }) => {
           <li>Instalaciones electricas en paredes drywall y cielo raso</li>
           <li>
             Instalaciones de estructuras drywall para empresas industriales y
-            residencias
+            comerciales
           </li>
           <li>Pintura de Interioes y exteriores en estructuras Drywall</li>
         </ul>
