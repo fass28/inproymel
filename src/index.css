@@ -107,7 +107,7 @@ body {
 :target::before {
   content: "";
   display: block;
-  height: 60px; /* fixed header height*/
+  height: 80px; /* fixed header height*/
   margin: 0px 0 0; /* negative fixed header height */
 }
 
