@@ -83,35 +83,38 @@ export const Footer = () => {
               <h6 className="footer-title">
                 <strong>NUESTRO CONTACTO</strong>
               </h6>
-              <Row className="footer-col">
-                <Col xs={2}>
-                  <FontAwesomeIcon
-                    icon={faLocationDot}
-                    className="footer-icon"
-                  />
-                </Col>
-                <Col xs={10}>
-                  <p className="text-icon">
+
+              <ul >
+                <li className="li-footer">
+                  <p className="li-text">
+                    <span className="footer-icon">
+                      <FontAwesomeIcon icon={faLocationDot} />
+                    </span>
                     Calle 19 Mz J Lte 3 Cooperativa Coopemmar Ventanilla
                   </p>
-                </Col>
-              </Row>
-              <Row className="footer-col">
-                <Col xs={2}>
-                  <FontAwesomeIcon icon={faEnvelope} className="footer-icon" />
-                </Col>
-                <Col xs={10}>
-                  <p className="text-icon">ventas@inproymel.com</p>
-                </Col>
-              </Row>
-              <Row className="footer-col">
-                <Col xs={2}>
-                  <FontAwesomeIcon icon={faPhone} className="footer-icon" />
-                </Col>
-                <Col xs={10}>
-                  <p className="text-icon">+51 934862130</p>
-                </Col>
-              </Row>
+                </li>
+                <li className="li-footer">
+                  <p className="li-text">
+                    <span className="footer-icon">
+                      <FontAwesomeIcon
+                        icon={faEnvelope}
+                      />
+                    </span>
+                    ventas@inproymel.com
+                  </p>
+                </li>
+                <li className="li-footer">
+                  <p className="li-text">
+                    <span className="footer-icon">
+                      <FontAwesomeIcon
+                        icon={faPhone}
+                      />
+                    </span>
+                    +51 934862130
+                  </p>
+                </li>
+
+              </ul>
             </Col>
           </Row>
         </Container>

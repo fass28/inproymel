@@ -38,7 +38,7 @@ export const WhyUs = () => {
               Experiencia
             </h2>
             <p>
-              Porque nuestros técnicos suman más de 10 años de experiencia en el
+              Porque nuestros técnicos suman más de 15 años de experiencia en el
               ámbito profesional con certificaciones.
             </p>
           </Col>
@@ -63,9 +63,9 @@ export const WhyUs = () => {
               Fiabilidad
             </h2>
             <p>
-              Porque realizamos mas de 100 trabajos al mes con distinton
-              clientes y en diferentes rubros, tanto industrial como
-              residencial.
+              Porque realizamos mas de 100 proyectos con nuestros distintos
+              clientes y en diferentes rubros tanto industriales como
+              comerciales
             </p>
           </Col>
         </Row>
