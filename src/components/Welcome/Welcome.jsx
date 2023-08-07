@@ -8,9 +8,9 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import img_2 from "../../assets/imagenes/welcome-img/img-2.webp";
-import img_6 from "../../assets/imagenes/welcome-img/img-6.jpg";
-import img_7 from "../../assets/imagenes/welcome-img/img-7.jpg";
+import img_2 from "../../assets/imagenes/welcome-img/img-2.avif";
+import img_6 from "../../assets/imagenes/welcome-img/img-6.webp";
+import img_7 from "../../assets/imagenes/welcome-img/img-7.avif";
 import img_9 from "../../assets/imagenes/welcome-img/img-9.jpg";
 import img_10 from "../../assets/imagenes/welcome-img/img-10.jpg";
 import img_12 from "../../assets/imagenes/welcome-img/img-12.jpg";
