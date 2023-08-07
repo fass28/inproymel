@@ -55,6 +55,7 @@ export const ServiceModalAuto = ({ showModal, onHide }) => {
             grabCursor={true}
             centeredSlides={true}
             slidesPerView={"auto"}
+            loop={true}
             coverflowEffect={{
               rotate: 50,
               stretch: 0,
@@ -68,7 +69,7 @@ export const ServiceModalAuto = ({ showModal, onHide }) => {
           >
             <SwiperSlide>
               <img
-                src={automation}
+                src={auto_6}
                 alt="Automation ICON"
                 className="services-img"
               />
@@ -103,14 +104,14 @@ export const ServiceModalAuto = ({ showModal, onHide }) => {
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={auto_5}
+                src={automation}
                 alt="Automation ICON"
                 className="services-img"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={auto_6}
+                src={auto_5}
                 alt="Automation ICON"
                 className="services-img"
               />
