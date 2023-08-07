@@ -18,14 +18,12 @@
   opacity: 0;
 }
 
-.whatsapp-box{
-  margin: 0 10px 10px 0;
-}
+
 
 #whatsapp {
   background-color: #22c15e;
-  height: 75px;
-  width: 75px;
+  height: 85px;
+  width: 85px;
   position: fixed;
   right: 40px;
   bottom: 40px;
@@ -58,7 +56,7 @@
 }
 
 .whatsapp-icon {
-  height: 40px;
+  height: 47px;
   color: white;
 }
 
