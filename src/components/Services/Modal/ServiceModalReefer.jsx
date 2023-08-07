@@ -35,8 +35,9 @@ export const ServiceModalReefer = ({ showModal, onHide }) => {
           <li>Supervisión de funcionamiento de contenedores refigerados.</li>
           <li>Inspección y reparación estructural de contendores.</li>
           <li>
-            Inspección y reparacion de compresor, evaporadoir, condensador,etc.
+            Inspección y reparacion de compresor, evaporador, condensador,etc.
           </li>
+          <li> Servicios de coldtreatment ( instalación de sensores usdas y calibración )</li>
         </ul>
 
         <img src={reefer} alt="reefer ICON" className="services-img" />

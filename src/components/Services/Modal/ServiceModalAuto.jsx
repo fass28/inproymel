@@ -67,7 +67,7 @@ export const ServiceModalAuto = ({ showModal, onHide }) => {
               modifier: 1,
               slideShadows: true,
             }}
-            pagination={true}
+            
             modules={[Autoplay,EffectCoverflow, Pagination]}
             className="mySwiper"
           >

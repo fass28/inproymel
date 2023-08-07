@@ -1,7 +1,22 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import { EffectCoverflow, Pagination, Autoplay } from "swiper";
+
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
 import electrical from "../../../assets/imagenes/services-img/electrical.jpg";
+import elec_1 from "../../../assets/imagenes/services-img/elec-1.jpg";
+import elec_2 from "../../../assets/imagenes/services-img/elec-2.jpg";
+import elec_3 from "../../../assets/imagenes/services-img/elec-3.jpg";
+import elec_4 from "../../../assets/imagenes/services-img/elec-4.jpg";
+import elec_5 from "../../../assets/imagenes/services-img/elec-5.jpg";
+import elec_6 from "../../../assets/imagenes/services-img/elec-6.jpg";
+import elec_7 from "../../../assets/imagenes/services-img/elec-7.jpg";
+import elec_8 from "../../../assets/imagenes/services-img/elec-8.jpg";
+import elec_9 from "../../../assets/imagenes/services-img/elec-9.jpg";
 
 import "./Modal.css";
 
@@ -37,8 +52,99 @@ export const ServiceModalElec = ({ showModal, onHide }) => {
           </li>
           <li>Instalacion de tableros électricos.</li>
         </ul>
-
-        <img src={electrical} alt="electrical ICON" className="services-img" />
+        <div className="img-modal">
+          <Swiper
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            effect={"coverflow"}
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={"auto"}
+            loop={true}
+            coverflowEffect={{
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            }}
+            modules={[Autoplay, EffectCoverflow, Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <img
+                src={elec_3}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={electrical}
+                alt="electrical ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={elec_1}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={elec_2}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={elec_4}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={elec_5}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={elec_6}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={elec_7}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={elec_8}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={elec_9}
+                alt="Automation ICON"
+                className="services-img"
+              />
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={onHide}>Cerrar</Button>
