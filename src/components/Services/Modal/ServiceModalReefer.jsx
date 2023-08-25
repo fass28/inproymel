@@ -56,7 +56,7 @@ export const ServiceModalReefer = ({ showModal, onHide }) => {
           <li>
             {" "}
             Servicios de coldtreatment ( instalación de sensores usdas y
-            calibración )
+            calibración ).
           </li>
         </ul>
 

@@ -40,14 +40,14 @@ export const ServiceModalDry = ({ showModal, onHide }) => {
         <h4 className="modal-title">Servicios</h4>
 
         <ul className="modal-list">
-          <li>Diseño de oficinas con separaciones drywall y cielo raso</li>
-          <li>Mantenimiento de instalaciones Drywall</li>
-          <li>Instalaciones eléctricas en paredes drywall y cielo raso</li>
+          <li>Diseño de oficinas con separaciones drywall y cielo raso.</li>
+          <li>Mantenimiento de instalaciones Drywall.</li>
+          <li>Instalaciones eléctricas en paredes drywall y cielo raso.</li>
           <li>
             Instalaciones de estructuras drywall para empresas industriales y
-            comerciales
+            comerciales.
           </li>
-          <li>Pintura de Interioes y exteriores en estructuras Drywall</li>
+          <li>Pintura de Interioes y exteriores en estructuras Drywall.</li>
         </ul>
 
         <div className="img-modal">

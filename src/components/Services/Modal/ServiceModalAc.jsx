@@ -49,10 +49,10 @@ export const ServiceModalAc = ({ showModal, onHide }) => {
               Mantenimiento de equiposde AC split pared,inverter, portátil y
               ventana
             </li>
-            <li>Servicio de Instalación de AC</li>
-            <li>Diseño industrial y residencial de equipos AC</li>
-            <li>Revisión y medicion de Gas</li>
-            <li>Visita técnica a empresas y residencias</li>
+            <li>Servicio de Instalación de AC.</li>
+            <li>Diseño industrial y residencial de equipos AC.</li>
+            <li>Revisión y medicion de Gas.</li>
+            <li>Visita técnica a empresas y residencias.</li>
           </ul>
 
           <div className="img-modal">

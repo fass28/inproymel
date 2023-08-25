@@ -44,10 +44,10 @@ export const ServiceModalAuto = ({ showModal, onHide }) => {
             Programacion y comisionamiento de PLC's, SIEMENS, ONROM, ALLEN
             BRADLEY, ABB.
           </li>
-          <li>Servicio de programación SCADA</li>
-          <li>Servicio de Upgrade de PLC, SCADA y HMI</li>
-          <li>Configuración de Instrumentos industriales</li>
-          <li>Configuración de redes de telecomunicación</li>
+          <li>Servicio de programación SCADA.</li>
+          <li>Servicio de Upgrade de PLC, SCADA y HMI.</li>
+          <li>Configuración de Instrumentos industriales.</li>
+          <li>Configuración de redes de telecomunicación.</li>
         </ul>
         <div className="img-modal">
           <Swiper
