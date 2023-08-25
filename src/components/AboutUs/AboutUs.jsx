@@ -12,7 +12,7 @@ export const AboutUs = () => {
   return (
     <section className="about-us" id="aboutUs">
       <div className="title-h1">
-        <h1>¿Quienes somos?</h1>
+        <h1>¿Quiénes somos?</h1>
         <div className="line-h1">
           <hr />
           <span>Ω</span>
@@ -24,9 +24,9 @@ export const AboutUs = () => {
         <div>
           <p className="about-us-text">
             Somos una empresa creada para atender las grandes demandas y
-            necesidades del sector electrico, mecanico, automatizacion y
-            servicios generales en el ambito industrial de empresas de
-            manufacturas y construccion
+            necesidades del sector electrico, mecánico, automatización, tratamientos de frío (cold tratment), servicios técnicos de contenedores refrigerados y 
+            servicios generales en el ámbito industrial de empresas de
+            manufacturas y construcción
           </p>
         </div>
 
@@ -35,7 +35,7 @@ export const AboutUs = () => {
             <div className=" face-1">
               <div className="content-1">
                 <img src={mision} alt="" className="aboutUs-icon" />
-                <h3>Mision</h3>
+                <h3>Misión</h3>
               </div>
             </div>
             <div className="face-2">
@@ -43,7 +43,7 @@ export const AboutUs = () => {
                 <p>
                   Ser una empresa de excelencia en variedad y calidad,
                   ofreciendo soluciones prácticas, viables y rentables,
-                  cummpliendo con los estandares de seguridad y cuidado del
+                  cumpliendo con los estandares de seguridad y cuidado del
                   medio ambiente en todas nuestras operaciones.
                 </p>
               </div>
@@ -53,7 +53,7 @@ export const AboutUs = () => {
             <div className="face-1">
               <div className="content-1">
                 <img src={vision} alt="" className="aboutUs-icon" />
-                <h3>Vision</h3>
+                <h3>Visión</h3>
               </div>
             </div>
             <div className="face-2">

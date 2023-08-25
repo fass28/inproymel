@@ -39,18 +39,18 @@ export const ServiceModalElec = ({ showModal, onHide }) => {
 
         <ul className="modal-list">
           <li>
-            Servicio de Mantenimiento de Motores trifasicos y Monofasicos.
+            Servicio de Mantenimiento de Motores trifásicos y Monofásicos.
           </li>
-          <li>Instalacion y Desinstalacion de motores en planta.</li>
-          <li>Servicio de Instalaciones Electricos a empresas industriales.</li>
+          <li>Instalación y Desinstalación de motores en planta.</li>
+          <li>Servicio de Instalaciones Eléctricos a empresas industriales.</li>
           <li>
-            Servicio de Instalaciones Electricos a Galerias y Departamentos.
+            Servicio de Instalaciones Eléctricos a Galerias y Departamentos.
           </li>
           <li>
             Servicio de montaje y Mantenimiento de equipos y sistemas eléctricos
             en media y baja tensión.
           </li>
-          <li>Instalacion de tableros électricos.</li>
+          <li>Instalación de tableros eléctricos.</li>
         </ul>
         <div className="img-modal">
           <Swiper

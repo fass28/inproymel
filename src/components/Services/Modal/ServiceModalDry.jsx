@@ -42,7 +42,7 @@ export const ServiceModalDry = ({ showModal, onHide }) => {
         <ul className="modal-list">
           <li>Diseño de oficinas con separaciones drywall y cielo raso</li>
           <li>Mantenimiento de instalaciones Drywall</li>
-          <li>Instalaciones electricas en paredes drywall y cielo raso</li>
+          <li>Instalaciones eléctricas en paredes drywall y cielo raso</li>
           <li>
             Instalaciones de estructuras drywall para empresas industriales y
             comerciales

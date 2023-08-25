@@ -66,7 +66,7 @@ export const Footer = () => {
               </h6>
               <p>
                 Somos una empresa creada para atender las grandes demandas y
-                necesidades del sector de Automatizacion,Electrico y mecanico en
+                necesidades del sector de Automatización,Eléctrico y Mecánico en
                 ámbitos industriales de empresas de manufacturas y construcción.
               </p>
             </Col>
@@ -75,7 +75,7 @@ export const Footer = () => {
                 <strong>HORARIO DE OFICINA</strong>
               </h6>
               <p className="footer-horario">
-                Estamos para apoyarte De lunes a domingo de 8 am hasta 7pm
+                Estamos para apoyarte De lunes a domingo de 8 am hasta 7pm.
                 Trabajamos tambien feriados!
               </p>
             </Col>

@@ -51,7 +51,7 @@ export const WhyUs = () => {
             </h2>
             <p>
               Porque sabemos lo importante que es una rápida respuesta hacia
-              nuestros clientes, por ello trabajamos los 7 dias dias a la semana
+              nuestros clientes, por ello trabajamos los 7 días a la semana
               y tambien feriados.
             </p>
           </Col>

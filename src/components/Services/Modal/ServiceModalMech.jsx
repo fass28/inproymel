@@ -46,7 +46,7 @@ export const ServiceModalMech = ({ showModal, onHide }) => {
             oxiacetilenica.
           </li>
           <li>
-            Servicio de diseño mecánico, montaje e instalacion de sistema de
+            Servicio de diseño mecánico, montaje e instalación de sistema de
             tuberias conduit.
           </li>
           <li>
@@ -54,7 +54,7 @@ export const ServiceModalMech = ({ showModal, onHide }) => {
             correctivo y predictivo).
           </li>
           <li>Servicio de diseño de piezas mecanicas con torno.</li>
-          <li>Diseño de tableros électricos industriales y domesticos.</li>
+          <li>Diseño de tableros eléctricos industriales y domésticos.</li>
         </ul>
 
         <div className="img-modal">

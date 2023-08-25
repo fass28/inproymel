@@ -32,7 +32,7 @@ export const ServiceModalReefer = ({ showModal, onHide }) => {
     >
       <Modal.Header closeButton className="modal-Header">
         <Modal.Title id="contained-modal-title-vcenter">
-          Asistencia de Contenedores Refierados
+          Asistencia de Contenedores Refrigerados
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
@@ -48,8 +48,8 @@ export const ServiceModalReefer = ({ showModal, onHide }) => {
           <li>Mantenimiento Preventivo, correctivo y predictivo.</li>
           <li>Instalación y puesta en marcha.</li>
           <li>Pre-trip Inspection(PTI) para reefers</li>
-          <li>Supervisión de funcionamiento de contenedores refigerados.</li>
-          <li>Inspección y reparación estructural de contendores.</li>
+          <li>Supervisión de funcionamiento de contenedores refrigerados.</li>
+          <li>Inspección y reparación estructural de contenedores.</li>
           <li>
             Inspección y reparacion de compresor, evaporador, condensador,etc.
           </li>

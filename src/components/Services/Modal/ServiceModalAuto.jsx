@@ -47,7 +47,7 @@ export const ServiceModalAuto = ({ showModal, onHide }) => {
           <li>Servicio de programación SCADA</li>
           <li>Servicio de Upgrade de PLC, SCADA y HMI</li>
           <li>Configuración de Instrumentos industriales</li>
-          <li>Configuración de redes de telecomunicacion</li>
+          <li>Configuración de redes de telecomunicación</li>
         </ul>
         <div className="img-modal">
           <Swiper
